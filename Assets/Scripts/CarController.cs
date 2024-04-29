@@ -18,7 +18,7 @@ public class CarController : MonoBehaviour
     [Header("Controls")]
 
     [SerializeField] private PlayerInput playerInput;
-    [SerializeField] private InputAction moveAction;
+    private InputAction moveAction;
 
     private Vector2 moveDirection;
 
