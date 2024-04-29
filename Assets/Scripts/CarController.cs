@@ -25,8 +25,6 @@ public class CarController : MonoBehaviour
     [SerializeField, Range(0, 90)] private float maxWheelAngle;
     [SerializeField, Min(0)] private float power;
 
-    private float thrust;
-
     private void Start()
     {
         moveAction = playerInput.actions["Move"];
