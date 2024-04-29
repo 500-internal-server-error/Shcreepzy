@@ -10,6 +10,8 @@ public class CarController : MonoBehaviour
     [SerializeField] private GameObject wheelFLModel;
     [SerializeField] private GameObject wheelFRModel;
 
+    [SerializeField] private GameObject speedometerArrow;
+
     [Header("Physics")]
 
     [SerializeField] private WheelCollider wheelBLCollider;
@@ -95,5 +97,10 @@ public class CarController : MonoBehaviour
     private void Update()
     {
         moveDirection = moveAction.ReadValue<Vector2>();
+        speedometerArrow.transform.rotation = Quaternion.Euler(
+            0,
+            0,
+            120.0f - ((rb.velocity.magnitude * 240) / 8.0f) // adapted from https://stackoverflow.com/a/929107
+        );
     }
 }
