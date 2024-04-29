@@ -20,6 +20,8 @@ public class CarController : MonoBehaviour
     [SerializeField] private PlayerInput playerInput;
     [SerializeField] private InputAction moveAction;
 
+    private Vector2 moveDirection;
+
     [Header("Stats")]
 
     [SerializeField, Range(0, 90)] private float maxWheelAngle;
@@ -32,7 +34,6 @@ public class CarController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector2 moveDirection = moveAction.ReadValue<Vector2>();
         float thrust = moveDirection.y;
         float steer = moveDirection.x;
 
@@ -80,5 +81,10 @@ public class CarController : MonoBehaviour
         wheelFLModel.transform.rotation = rotationFL;
         wheelFRCollider.GetWorldPose(out var _, out Quaternion rotationFR);
         wheelFRModel.transform.rotation = rotationFR;
+    }
+
+    private void Update()
+    {
+        moveDirection = moveAction.ReadValue<Vector2>();
     }
 }
