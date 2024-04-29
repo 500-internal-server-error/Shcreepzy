@@ -5,6 +5,8 @@ public class CarController : MonoBehaviour
 {
     [Header("Model")]
 
+    [SerializeField] private Rigidbody rb;
+
     [SerializeField] private GameObject wheelFLModel;
     [SerializeField] private GameObject wheelFRModel;
 
@@ -81,6 +83,13 @@ public class CarController : MonoBehaviour
         wheelFLModel.transform.rotation = rotationFL;
         wheelFRCollider.GetWorldPose(out var _, out Quaternion rotationFR);
         wheelFRModel.transform.rotation = rotationFR;
+
+        rb.velocity = Vector3.ClampMagnitude(rb.velocity, 8.0f);
+        if (rb.velocity.magnitude <= 2e-5f)
+        {
+            rb.velocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+        }
     }
 
     private void Update()
