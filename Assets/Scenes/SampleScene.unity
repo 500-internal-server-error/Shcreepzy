@@ -1502,7 +1502,7 @@ MonoBehaviour:
   wheelFLCollider: {fileID: 2113999866}
   wheelFRCollider: {fileID: 1165539839}
   playerInput: {fileID: 1197539340}
-  maxWheelAngle: 5
+  maxWheelAngle: 15
   power: 500
 --- !u!114 &1197539340
 MonoBehaviour:
