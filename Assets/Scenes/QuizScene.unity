@@ -166,23 +166,43 @@ MonoBehaviour:
   canvas: {fileID: 262238431}
   quizQuestionPrefab: {fileID: 4679359071542136565, guid: e7db991f11fc0fc45804a77f048ed7d9, type: 3}
   quizQuestions:
-  - <Question>k__BackingField: kill -9
-    <OptionA>k__BackingField: sigkill
+  - <QuestionHasImage>k__BackingField: 0
+    <QuestionText>k__BackingField: kill -9
+    <QuestionImage>k__BackingField: {fileID: 0}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: sigkill
+    <OptionAImage>k__BackingField: {fileID: 0}
     <OptionAIsCorrect>k__BackingField: 1
-    <OptionB>k__BackingField: sigsegv
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: sigsegv
+    <OptionBImage>k__BackingField: {fileID: 0}
     <OptionBIsCorrect>k__BackingField: 0
-    <OptionC>k__BackingField: sifgpe
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: sifgpe
+    <OptionCImage>k__BackingField: {fileID: 0}
     <OptionCIsCorrect>k__BackingField: 0
-    <OptionD>k__BackingField: sigint
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: sigint
+    <OptionDImage>k__BackingField: {fileID: 0}
     <OptionDIsCorrect>k__BackingField: 0
-  - <Question>k__BackingField: bad main
-    <OptionA>k__BackingField: int main()
+  - <QuestionHasImage>k__BackingField: 0
+    <QuestionText>k__BackingField: bad main
+    <QuestionImage>k__BackingField: {fileID: 0}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: int main()
+    <OptionAImage>k__BackingField: {fileID: 0}
     <OptionAIsCorrect>k__BackingField: 0
-    <OptionB>k__BackingField: void main()
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: void main()
+    <OptionBImage>k__BackingField: {fileID: 0}
     <OptionBIsCorrect>k__BackingField: 1
-    <OptionC>k__BackingField: int main(int, char**)
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: int main(int, char**)
+    <OptionCImage>k__BackingField: {fileID: 0}
     <OptionCIsCorrect>k__BackingField: 0
-    <OptionD>k__BackingField: int main(int, char**, char**)
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: int main(int, char**, char**)
+    <OptionDImage>k__BackingField: {fileID: 0}
     <OptionDIsCorrect>k__BackingField: 0
 --- !u!1 &262238428
 GameObject:
