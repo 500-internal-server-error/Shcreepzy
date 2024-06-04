@@ -35,7 +35,7 @@ namespace Shcreepzy
 
         private void Start()
         {
-            moveAction = playerInput.actions["Move"];
+            moveAction = playerInput.actions["MoveCar"];
         }
 
         private void FixedUpdate()
