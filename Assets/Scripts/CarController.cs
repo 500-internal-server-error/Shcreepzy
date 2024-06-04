@@ -21,12 +21,19 @@ namespace Shcreepzy
         [SerializeField] private WheelCollider wheelFLCollider;
         [SerializeField] private WheelCollider wheelFRCollider;
 
+        [Header("Camera")]
+
+        [SerializeField] private new Camera camera; // Ignore Unity deprecated variable
+        [SerializeField, Min(0)] private float cameraSpeed;
+
         [Header("Controls")]
 
         [SerializeField] private PlayerInput playerInput;
-        private InputAction moveAction;
+        private InputAction carMoveAction;
+        private InputAction cameraMoveAction;
 
-        private Vector2 moveDirection;
+        private Vector2 carMoveDirection;
+        private float cameraMoveDirection;
 
         [Header("Stats")]
 
@@ -35,13 +42,14 @@ namespace Shcreepzy
 
         private void Start()
         {
-            moveAction = playerInput.actions["MoveCar"];
+            carMoveAction = playerInput.actions["MoveCar"];
+            cameraMoveAction = playerInput.actions["MoveCamera"];
         }
 
         private void FixedUpdate()
         {
-            float thrust = moveDirection.y;
-            float steer = moveDirection.x;
+            float thrust = carMoveDirection.y;
+            float steer = carMoveDirection.x;
 
             if (thrust > 0.05f || thrust < -0.05f)
             {
@@ -94,16 +102,26 @@ namespace Shcreepzy
                 rb.velocity = Vector3.zero;
                 rb.angularVelocity = Vector3.zero;
             }
+
+            if (Mathf.Abs(cameraMoveDirection) > 2e-5f)
+            {
+                float oldCameraAngle = camera.transform.rotation.eulerAngles.y;
+                float newCameraAngle = oldCameraAngle + cameraMoveDirection * cameraSpeed;
+                camera.transform.rotation = Quaternion.Euler(30, newCameraAngle, 0);
+                Debug.Log(newCameraAngle);
+            }
         }
 
         private void Update()
         {
-            moveDirection = moveAction.ReadValue<Vector2>();
+            carMoveDirection = carMoveAction.ReadValue<Vector2>();
             speedometerArrow.transform.rotation = Quaternion.Euler(
                 0,
                 0,
                 120.0f - ((rb.velocity.magnitude * 240) / 8.0f) // adapted from https://stackoverflow.com/a/929107
             );
+
+            cameraMoveDirection = cameraMoveAction.ReadValue<float>();
         }
     }
 }
