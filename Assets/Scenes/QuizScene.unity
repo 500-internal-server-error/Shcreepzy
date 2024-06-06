@@ -167,41 +167,826 @@ MonoBehaviour:
   quizQuestionPrefab: {fileID: 4679359071542136565, guid: e7db991f11fc0fc45804a77f048ed7d9, type: 3}
   quizQuestions:
   - <QuestionHasImage>k__BackingField: 0
-    <QuestionText>k__BackingField: kill -9
+    <QuestionText>k__BackingField: "Apa fungsi utama dari  rambu lalu lintas?\r"
     <QuestionImage>k__BackingField: {fileID: 0}
     <OptionAType>k__BackingField: 0
-    <OptionAText>k__BackingField: sigkill
-    <OptionAImage>k__BackingField: {fileID: 0}
-    <OptionAIsCorrect>k__BackingField: 1
-    <OptionBType>k__BackingField: 0
-    <OptionBText>k__BackingField: sigsegv
-    <OptionBImage>k__BackingField: {fileID: 0}
-    <OptionBIsCorrect>k__BackingField: 0
-    <OptionCType>k__BackingField: 0
-    <OptionCText>k__BackingField: sifgpe
-    <OptionCImage>k__BackingField: {fileID: 0}
-    <OptionCIsCorrect>k__BackingField: 0
-    <OptionDType>k__BackingField: 0
-    <OptionDText>k__BackingField: sigint
-    <OptionDImage>k__BackingField: {fileID: 0}
-    <OptionDIsCorrect>k__BackingField: 0
-  - <QuestionHasImage>k__BackingField: 0
-    <QuestionText>k__BackingField: bad main
-    <QuestionImage>k__BackingField: {fileID: 0}
-    <OptionAType>k__BackingField: 0
-    <OptionAText>k__BackingField: int main()
+    <OptionAText>k__BackingField: "Untuk menghiasi jalanan\r"
     <OptionAImage>k__BackingField: {fileID: 0}
     <OptionAIsCorrect>k__BackingField: 0
     <OptionBType>k__BackingField: 0
-    <OptionBText>k__BackingField: void main()
+    <OptionBText>k__BackingField: "Memberi peringatan atau petunjuk.\r"
     <OptionBImage>k__BackingField: {fileID: 0}
     <OptionBIsCorrect>k__BackingField: 1
     <OptionCType>k__BackingField: 0
-    <OptionCText>k__BackingField: int main(int, char**)
+    <OptionCText>k__BackingField: "Untuk mengiklankan bisnis lokal\r"
     <OptionCImage>k__BackingField: {fileID: 0}
     <OptionCIsCorrect>k__BackingField: 0
     <OptionDType>k__BackingField: 0
-    <OptionDText>k__BackingField: int main(int, char**, char**)
+    <OptionDText>k__BackingField: "Untuk memantau kecepatan lalu lintas\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 0
+    <QuestionText>k__BackingField: "Jenis rambu lalu lintas mana yang digunakan untuk
+      menunjukkan tindakan yang wajib dilakukan oleh pengguna jalan?\r"
+    <QuestionImage>k__BackingField: {fileID: 0}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Rambu peringatan\r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Rambu larangan\r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Rambu perintah\r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 1
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Rambu penunjuk arah\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa fungsi dari rambu melingkar berwarna biru
+      dengan tanda panah putih yang mengarah lurus ke atas pada gambar dibawah ini
+      ?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: 4fbab74b39ed0db41a9d8b00872c0941, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Dilarang masuk\r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Jalan lurus ke depan\r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Belok kiri saja\r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Dilarang berhenti\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa fungsi dari rambu pada gambar dibawah ini?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: a5a42e3e33a6c3548833fd11d5a388ce, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Peringatan Tanjakan Landai\r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Peringatan Tanjakan Curam\r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Peringatan Turunan Landai\r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Peringatan Turunan Curam\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa Fungsi dari Rambu berwarna biru dengan huruf
+      \u201CP\u201D putih pada gambar dibawah  ini ?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: a1463894bb2fc164aa02d27f86da6e0e, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: Dilarang parkir
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Tempat penyeberangan pejalan kaki\r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Area parkir\r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 1
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Parkir dan berkendara\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa fungsi dari rambu  pada gambar dibawah  ini
+      ?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: a7fa881db64f42c4e9d10b31008e8091, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Peringatan Jurang\r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Larangan Masuk bagi Pejalan Kaki\r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Parkir dan berkendara\r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Larangan Berhenti\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Marka Jalan adalah suatu tanda yang berada di
+      permukaan jalan atau di atas permukaan jalan yang meliputi peralatan atau tanda
+      yang membentuk garis membujur, garis melintang, garis serong, serta lambang
+      yang berfungsi untuk? \r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: 69a9b765aa1a9204d9f4a566db9860b8, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Untuk menunjukkan area parkir \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Mengatur arus dan membatasi area lalu lintas.\r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Untuk menandai jalur sepeda \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Untuk menandai tempat penyeberangan pejalan kaki\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Jelaskan fungsi dari marka penyeberangan zebra
+      cross.? \r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: e1265a5a73c451a4890718f8197229ad, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Untuk menunjukkan area parkir  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Untuk menandai zona penyeberangan pejalan kaki 
+      \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Untuk menunjukkan arah arus lalu lintas  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Untuk menandai jalur sepeda\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa fungsi dari marka panah jalan? \r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: 60d3dad268dee6045b6b0ce9ff355ce0, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: " Untuk menunjukkan area parkir \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: " Menunjukkan arah lalu lintas sebelum persimpangan.\r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: " Untuk menandai jalur sepeda \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: " Untuk menandai tempat penyeberangan pejalan kaki\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa tujuan dari persimpangan kotak kuning?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: 0c08cdf81c23c8940b9bbb1577a8c831, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Untuk menunjukkan area parkir  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Menandai zona penyeberangan.\r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Mencegah kendaraan berhenti di persimpangan.\r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 1
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Untuk menandai jalur sepeda\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa fungsi utama dari sinyal lampu lalu lintas?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: ea3ffa1dd65cf9141a890ffcf4f7f4de, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Untuk menunjukkan tempat wisata terdekat  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Untuk mengontrol arus lalu lintas di persimpangan 
+      \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Untuk menandai penyeberangan pejalan kaki  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Untuk menunjukkan batas kecepatan\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa yang harus Anda lakukan ketika lampu lalu
+      lintas berubah menjadi kuning?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: 1802c5bd99dc4a64da4d164b76f547c7, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Mempercepat  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Bersiap berhenti jika aman.\r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Abaikan saja  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Melanjutkan perjalanan dengan hati-hati\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa tujuan dari sinyal pejalan kaki di penyeberangan?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: e7aba52960c538841803b906886ad131, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Untuk menunjukkan ke mana pejalan kaki harus berjalan 
+      \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Menunjukkan waktu aman bagi pejalan kaki. \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Untuk menunjukkan batas kecepatan  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Untuk menunjukkan fasilitas-fasilitas terdekat\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa fungsi lampu merah yang berkedip di perlintasan
+      kereta api?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: de3d6189af95e3a46be383e9e3d5bb61, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Menunjukkan bahwa kereta api mendekat dan kendaraan
+      harus berhenti.\r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 1
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Menandakan bahwa menyeberang rel kereta api itu
+      aman\r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Lampu tersebut menunjukkan rumah sakit terdekat 
+      \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Lampu ini menunjukkan pintu tol yang akan datang\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 0
+    <QuestionText>k__BackingField: "Apa fungsi sistem rem pada kendaraan?\r"
+    <QuestionImage>k__BackingField: {fileID: 0}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Untuk meningkatkan kecepatan kendaraan  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Untuk memperlambat atau menghentikan kendaraan 
+      \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Untuk mengatur suhu mesin  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Untuk memberikan tenaga pada roda\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 0
+    <QuestionText>k__BackingField: "Apa peran mesin dalam sebuah kendaraan?\r"
+    <QuestionImage>k__BackingField: {fileID: 0}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Menyediakan tenaga yang dibutuhkan untuk menggerakkan
+      kendaraan  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 1
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Untuk mengatur suhu mesin  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Untuk meningkatkan kecepatan kendaraan  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Untuk menyerap guncangan dari permukaan jalan\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa fungsi utama indikator kecepatan dalam kendaraan?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: e5cfcc9834921b646ba85eb45034149a, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Untuk mengukur konsumsi bahan bakar\r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Untuk menampilkan waktu\r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Untuk menunjukkan kecepatan kendaraan\r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 1
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Untuk mengontrol sistem pendingin udara\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Berapa jarak minimum yang harus disinari oleh
+      lampu depan sinar rendah kendaraan menurut peraturan? \r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: 2cfe075246c739349aff3dd6de5d7193, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "20 meter\r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "40 meter\r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "60 meter\r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "80 meter\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 0
+    <QuestionText>k__BackingField: "Dalam kondisi apa lampu mundur biasanya aktif
+      pada kendaraan?\r"
+    <QuestionImage>k__BackingField: {fileID: 0}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Saat lampu depan dinyalakan\r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Saat lampu hazard diaktifkan\r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Saat kendaraan berada di gigi mundur\r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 1
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Saat kendaraan diparkir\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 0
+    <QuestionText>k__BackingField: "Peralatan keselamatan apa yang wajib ada di semua
+      kendaraan beroda empat ?\r"
+    <QuestionImage>k__BackingField: {fileID: 0}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Kantung udara / Airbag \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Sabuk pengaman  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Sistem navigasi GPS  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Konektivitas Bluetooth\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa fungsi kaca spion?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: 3e4d682fb33574b48b51d1c414cdb06c, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Untuk memberikan pandangan ke area di belakang
+      kendaraan  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 1
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Untuk meningkatkan efisiensi bahan bakar  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Untuk mengatur suhu mesin  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Untuk memberikan tenaga ke roda\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 0
+    <QuestionText>k__BackingField: "Mengapa penting untuk memeriksa tekanan angin
+      ban secara teratur?\r"
+    <QuestionImage>k__BackingField: {fileID: 0}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Untuk meningkatkan efisiensi bahan bakar  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: 'Untuk memastikan penanganan yang tepat dan efisiensi
+      bahan bakar  '
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Untuk mengatur suhu mesin  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Untuk memberikan tenaga pada roda\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 0
+    <QuestionText>k__BackingField: "Apa tujuan klakson pada kendaraan bermotor ?\r"
+    <QuestionImage>k__BackingField: {fileID: 0}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Untuk memperingatkan pengguna jalan lain akan
+      keberadaan Anda  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 1
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Untuk meningkatkan efisiensi bahan bakar  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Untuk mengatur suhu mesin  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Untuk memberikan tenaga pada roda\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 0
+    <QuestionText>k__BackingField: "Mengapa lampu depan penting bagi kendaraan bermotor
+      ?\r"
+    <QuestionImage>k__BackingField: {fileID: 0}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Untuk menerangi jalan di depan dan membuat kendaraan
+      terlihat oleh orang lain  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 1
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Untuk meningkatkan efisiensi bahan bakar  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Untuk memberikan tenaga ke roda  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Untuk mengatur temperatur mesin\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 0
+    <QuestionText>k__BackingField: "Apa yang harus Anda periksa sebelum menyalakan
+      kendaraan Anda?\r"
+    <QuestionImage>k__BackingField: {fileID: 0}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Kaca spion, posisi tempat duduk, dan sabuk pengaman 
+      \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 1
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Stasiun radio dan pendingin udara  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Wiper kaca depan dan lampu depan  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Tekanan angin ban dan level oli mesin\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 0
+    <QuestionText>k__BackingField: "Bagaimana cara menangani ban pecah saat mengemudi?\r"
+    <QuestionImage>k__BackingField: {fileID: 0}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Tetap memegang erat setir, memperlambat secara
+      bertahap, dan menepi dengan aman  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 1
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Lakukan akselerasi untuk mempertahankan kendali
+      kendaraan  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Menginjak rem secara mendadak untuk menghentikan
+      kendaraan  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: Matikan mesin dan panggil bantuan
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 0
+    <QuestionText>k__BackingField: "Bagaimana cara penggunaan lampu sein yang benar?\r"
+    <QuestionImage>k__BackingField: {fileID: 0}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Untuk menunjukkan niat Anda untuk berbelok atau
+      berpindah lajur  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 1
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Untuk memberi tanda kepada pengemudi lain untuk
+      mendahului Anda  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Untuk menunjukkan bahwa Anda sedang melambat 
+      \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Untuk menunjukkan bahwa kendaraan Anda mengalami
+      kerusakan\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa yang harus Anda lakukan jika terdapat penyeberang
+      jalan di depan kendaraan Anda. ?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: cea29a85e8051e94f9398dd3200da4bc, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Mempercepat untuk melaju dengan cepat  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Memperlambat dan bersiaplah untuk berhenti  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Mengabaikan mereka dan terus mengemudi  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Bunyikan klakson Anda untuk memperingatkan mereka\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa fungsi marka kotak kuning atau yellow box
+      pada gambar ini?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: 080f9174f751ccf4faa35fa90836038d, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Ini menunjukkan area parkir yang ditentukan\r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Menandakan zona bongkar muat untuk kendaraan\r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Melarang kendaraan berhenti di area yang ditentukan\r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 1
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Menandakan zona penyeberangan pejalan kaki\r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Kapan jalur paling kanan dapat digunakan sesuai
+      dengan peraturan lalu lintas?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: f7744df0ad791af4aaca4cbe97762eec, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Hanya untuk berbelok ke kiri  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Hanya untuk menyalip dan berbelok ke kanan  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Hanya untuk memutar balik  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Hanya untuk kendaraan darurat  \r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 0
+    <QuestionText>k__BackingField: "Persyaratan apa saja yang harus dipenuhi untuk
+      mendapatkan SIM A?\r"
+    <QuestionImage>k__BackingField: {fileID: 0}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Persyaratan usia, administratif, kesehatan, dan
+      lulus ujian  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 1
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Persyaratan jenis kelamin, pendidikan, keuangan,
+      dan pengalaman  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Status sosial, kemampuan bahasa, riwayat mengemudi,
+      dan persyaratan kebugaran fisik  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Persyaratan kewarganegaraan, pekerjaan, tempat
+      tinggal, dan latar belakang keluarga  \r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Bahaya apa yang ditunjukkan oleh rambu ini selama
+      musim hujan?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: a4f804a191f89ec429ac72a66df5c27d, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Permukaan jalan yang licin di depan  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 1
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Jarak pandang yang berkurang karena kabut  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Area penyeberangan satwa liar  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Zona konstruksi jalan  \r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Dalam gambar di bawah ini, tanda mana yang menunjukkan
+      prioritas?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: 81ffd782b9fe47846af58fe7d880f0e3, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: Gambar 1
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: Gambar 2
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: Gambar 3
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 1
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: Semuanya benar
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa yang harus Anda lakukan ketika melihat rambu
+      ini?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: 0f4c30aded4ebd74db02c7e09adaa6a8, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Beri jalan untuk lalu lintas yang datang  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 1
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Tingkatkan kecepatan Anda  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Mengabaikan rambu tersebut dan terus mengemudi 
+      \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Berhenti dengan segera  \r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa yang harus Anda lakukan ketika melihat tanda
+      ini?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: f4470874648464f49ab53b6f263f58e9, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Tingkatkan kecepatan Anda  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Memperlambat dan mematuhi batas kecepatan  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Menyalip kendaraan lain  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Berhenti dengan segera  \r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa tujuan dari Stop Line dalam gambar di bawah
+      ini?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: 39cb98dfd6b510e4380d8cce88357de0, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Untuk menunjukkan tempat penyeberangan pejalan
+      kaki  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Untuk menandai awal dari zona parkir  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Untuk menunjukkan di mana kendaraan harus berhenti
+      di persimpangan  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 1
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Untuk menggambarkan tepi jalan  \r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Secara umum, jika tidak ditentukan , berapakah
+      batas kecepatan maksimum di dalam area perumahan/kota?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: 247cc89199512ab4eb69991e52da71e8, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "60 km/jam  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "70 km/jam  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "50 km/jam  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 1
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "40 km/jam  \r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 0
+    <QuestionText>k__BackingField: "Apa yang harus Anda lakukan jika Anda terlibat
+      dalam kecelakaan lalu lintas yang menyebabkan kerusakan kendaraan dan Anda
+      mengakui kesalahan Anda?\r"
+    <QuestionImage>k__BackingField: {fileID: 0}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Meninggalkan tempat kejadian dengan segera  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: "Mengakui kesalahan kepada pihak lain dan meminta
+      maaf  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Menunggu pihak lain mengakui kesalahan terlebih
+      dahulu  \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Bertukar kontak dan informasi asuransi dan melaporkan
+      kecelakaan tersebut kepada pihak berwenang  \r"
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 1
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Berdasarkan gambar dibawah ini , Posisi berhenti
+      kendaraan yang mana yang tidak benar?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: 10508d40e784f1b4b8194098111f4958, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: 1
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: 2
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 1
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: 3
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 0
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: 1 dan 2
+    <OptionDImage>k__BackingField: {fileID: 0}
+    <OptionDIsCorrect>k__BackingField: 0
+  - <QuestionHasImage>k__BackingField: 1
+    <QuestionText>k__BackingField: "Apa yang harus Anda lakukan ketika menemukan
+      tanda ini?\r"
+    <QuestionImage>k__BackingField: {fileID: 21300000, guid: 82408d59f17550b41895668c183c61f0, type: 3}
+    <OptionAType>k__BackingField: 0
+    <OptionAText>k__BackingField: "Berhenti dan lanjutkan perjalanan hanya jika jalan
+      sudah aman  \r"
+    <OptionAImage>k__BackingField: {fileID: 0}
+    <OptionAIsCorrect>k__BackingField: 0
+    <OptionBType>k__BackingField: 0
+    <OptionBText>k__BackingField: " Melanjutkan perjalanan tanpa berhenti  \r"
+    <OptionBImage>k__BackingField: {fileID: 0}
+    <OptionBIsCorrect>k__BackingField: 0
+    <OptionCType>k__BackingField: 0
+    <OptionCText>k__BackingField: "Mengalah dan memberikan prioritas kepada kendaraan
+      di jalan utama \r"
+    <OptionCImage>k__BackingField: {fileID: 0}
+    <OptionCIsCorrect>k__BackingField: 1
+    <OptionDType>k__BackingField: 0
+    <OptionDText>k__BackingField: "Berbalik arah dan mencari rute alternatif  \r"
     <OptionDImage>k__BackingField: {fileID: 0}
     <OptionDIsCorrect>k__BackingField: 0
 --- !u!1 &262238428

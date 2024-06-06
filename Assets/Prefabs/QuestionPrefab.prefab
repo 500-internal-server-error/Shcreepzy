@@ -58,7 +58,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.5019608, g: 0.84705883, b: 1, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -67,7 +67,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 0}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1172,15 +1172,15 @@ MonoBehaviour:
   questionImage: {fileID: 37596870952101674}
   optionATextBox: {fileID: 1002520258083875770}
   optionAImage: {fileID: 8317939631262661348}
+  optionAButton: {fileID: 1347687410248931921}
   optionBTextBox: {fileID: 3402568579133263719}
   optionBImage: {fileID: 8201512347795562206}
+  optionBButton: {fileID: 8486518739852725117}
   optionCTextBox: {fileID: 4518384458465556820}
   optionCImage: {fileID: 3035095050312024696}
+  optionCButton: {fileID: 4793902284527394304}
   optionDTextBox: {fileID: 191662847042001501}
   optionDImage: {fileID: 29896628661610757}
-  optionAButton: {fileID: 1347687410248931921}
-  optionBButton: {fileID: 8486518739852725117}
-  optionCButton: {fileID: 4793902284527394304}
   optionDButton: {fileID: 6088049704350689006}
   quizManager: {fileID: 0}
 --- !u!1 &5399638154522852047
