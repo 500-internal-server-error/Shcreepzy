@@ -165,6 +165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   canvas: {fileID: 262238431}
   quizQuestionPrefab: {fileID: 4679359071542136565, guid: e7db991f11fc0fc45804a77f048ed7d9, type: 3}
+  minimumCorrectAnswers: 28
   quizQuestions:
   - <QuestionHasImage>k__BackingField: 0
     <QuestionText>k__BackingField: "Apa fungsi utama dari  rambu lalu lintas?\r"

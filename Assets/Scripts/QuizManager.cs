@@ -9,12 +9,21 @@ namespace Shcreepzy
         [SerializeField] private QuizQuestionObject quizQuestionPrefab;
         private QuizQuestionObject currentQuizQuestionObject;
 
+        [SerializeField, Min(0)] private int minimumCorrectAnswers;
+        private int correctAnswers;
+
         [SerializeField] private List<QuizQuestion> quizQuestions;
         private int currentQuestionIndex;
+
+        private void OnValidate()
+        {
+            minimumCorrectAnswers = Mathf.Clamp(minimumCorrectAnswers, 0, quizQuestions.Count);
+        }
 
         private void Start()
         {
             currentQuestionIndex = 0;
+            correctAnswers = 0;
 
             if (currentQuizQuestionObject != null)
             {
@@ -44,22 +53,12 @@ namespace Shcreepzy
                 _ => false
             };
 
-            if (optionIsCorrect)
-            {
-                Debug.Log("Correct");
-                Object.Destroy(currentQuizQuestionObject.gameObject);
-                currentQuestionIndex++;
-                if (currentQuestionIndex >= quizQuestions.Count) { Debug.Log("No more questions"); return; }
-                SpawnNextQuestion();
-            }
-            else
-            {
-                Debug.Log("Wrong, try again");
-            }
-        }
+            if (optionIsCorrect) correctAnswers++;
 
-        // 1. quiz manager spawns ques prefab
-        // 2. give the new ques object a reference to the quiz manager
-        // 3. tell the new ques object to tell the quiz manager if they get clicked
+            Object.Destroy(currentQuizQuestionObject.gameObject);
+            currentQuestionIndex++;
+            if (currentQuestionIndex >= quizQuestions.Count) { Debug.Log($"{correctAnswers}/{quizQuestions.Count}"); return; }
+            SpawnNextQuestion();
+        }
     }
 }
