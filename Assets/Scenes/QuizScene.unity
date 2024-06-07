@@ -207,7 +207,7 @@ MonoBehaviour:
     <OptionDIsCorrect>k__BackingField: 0
   - <QuestionHasImage>k__BackingField: 1
     <QuestionText>k__BackingField: "Apa fungsi dari rambu melingkar berwarna biru
-      dengan tanda panah putih yang mengarah lurus ke atas pada gambar dibawah ini
+      dengan tanda panah putih yang mengarah lurus ke atas pada gambar diatas ini
       ?\r"
     <QuestionImage>k__BackingField: {fileID: 21300000, guid: 4fbab74b39ed0db41a9d8b00872c0941, type: 3}
     <OptionAType>k__BackingField: 0
@@ -227,7 +227,7 @@ MonoBehaviour:
     <OptionDImage>k__BackingField: {fileID: 0}
     <OptionDIsCorrect>k__BackingField: 0
   - <QuestionHasImage>k__BackingField: 1
-    <QuestionText>k__BackingField: "Apa fungsi dari rambu pada gambar dibawah ini?\r"
+    <QuestionText>k__BackingField: "Apa fungsi dari rambu pada gambar diatas ini?\r"
     <QuestionImage>k__BackingField: {fileID: 21300000, guid: a5a42e3e33a6c3548833fd11d5a388ce, type: 3}
     <OptionAType>k__BackingField: 0
     <OptionAText>k__BackingField: "Peringatan Tanjakan Landai\r"
@@ -247,7 +247,7 @@ MonoBehaviour:
     <OptionDIsCorrect>k__BackingField: 0
   - <QuestionHasImage>k__BackingField: 1
     <QuestionText>k__BackingField: "Apa Fungsi dari Rambu berwarna biru dengan huruf
-      \u201CP\u201D putih pada gambar dibawah  ini ?\r"
+      \u201CP\u201D putih pada gambar diatas  ini ?\r"
     <QuestionImage>k__BackingField: {fileID: 21300000, guid: a1463894bb2fc164aa02d27f86da6e0e, type: 3}
     <OptionAType>k__BackingField: 0
     <OptionAText>k__BackingField: Dilarang parkir
@@ -266,7 +266,7 @@ MonoBehaviour:
     <OptionDImage>k__BackingField: {fileID: 0}
     <OptionDIsCorrect>k__BackingField: 0
   - <QuestionHasImage>k__BackingField: 1
-    <QuestionText>k__BackingField: "Apa fungsi dari rambu  pada gambar dibawah  ini
+    <QuestionText>k__BackingField: "Apa fungsi dari rambu  pada gambar diatas ini
       ?\r"
     <QuestionImage>k__BackingField: {fileID: 21300000, guid: a7fa881db64f42c4e9d10b31008e8091, type: 3}
     <OptionAType>k__BackingField: 0
@@ -286,10 +286,8 @@ MonoBehaviour:
     <OptionDImage>k__BackingField: {fileID: 0}
     <OptionDIsCorrect>k__BackingField: 0
   - <QuestionHasImage>k__BackingField: 1
-    <QuestionText>k__BackingField: "Marka Jalan adalah suatu tanda yang berada di
-      permukaan jalan atau di atas permukaan jalan yang meliputi peralatan atau tanda
-      yang membentuk garis membujur, garis melintang, garis serong, serta lambang
-      yang berfungsi untuk? \r"
+    <QuestionText>k__BackingField: Apa fungsi marka jalan yang meliputi garis membujur,
+      garis melintang, garis serong, dan lambang di permukaan jalan?
     <QuestionImage>k__BackingField: {fileID: 21300000, guid: 69a9b765aa1a9204d9f4a566db9860b8, type: 3}
     <OptionAType>k__BackingField: 0
     <OptionAText>k__BackingField: "Untuk menunjukkan area parkir \r"
@@ -431,81 +429,77 @@ MonoBehaviour:
       kereta api?\r"
     <QuestionImage>k__BackingField: {fileID: 21300000, guid: de3d6189af95e3a46be383e9e3d5bb61, type: 3}
     <OptionAType>k__BackingField: 0
-    <OptionAText>k__BackingField: "Menunjukkan bahwa kereta api mendekat dan kendaraan
-      harus berhenti.\r"
+    <OptionAText>k__BackingField: "kereta api mendekat dan kendaraan harus berhenti.\r"
     <OptionAImage>k__BackingField: {fileID: 0}
     <OptionAIsCorrect>k__BackingField: 1
     <OptionBType>k__BackingField: 0
-    <OptionBText>k__BackingField: "Menandakan bahwa menyeberang rel kereta api itu
-      aman\r"
+    <OptionBText>k__BackingField: " menyeberang rel kereta api aman\r"
     <OptionBImage>k__BackingField: {fileID: 0}
     <OptionBIsCorrect>k__BackingField: 0
     <OptionCType>k__BackingField: 0
-    <OptionCText>k__BackingField: "Lampu tersebut menunjukkan rumah sakit terdekat 
-      \r"
+    <OptionCText>k__BackingField: "menunjukkan rumah sakit terdekat  \r"
     <OptionCImage>k__BackingField: {fileID: 0}
     <OptionCIsCorrect>k__BackingField: 0
     <OptionDType>k__BackingField: 0
-    <OptionDText>k__BackingField: "Lampu ini menunjukkan pintu tol yang akan datang\r"
+    <OptionDText>k__BackingField: "L pintu tol yang akan datang\r"
     <OptionDImage>k__BackingField: {fileID: 0}
     <OptionDIsCorrect>k__BackingField: 0
   - <QuestionHasImage>k__BackingField: 0
     <QuestionText>k__BackingField: "Apa fungsi sistem rem pada kendaraan?\r"
     <QuestionImage>k__BackingField: {fileID: 0}
     <OptionAType>k__BackingField: 0
-    <OptionAText>k__BackingField: "Untuk meningkatkan kecepatan kendaraan  \r"
+    <OptionAText>k__BackingField: "Meningkatkan kecepatan kendaraan  \r"
     <OptionAImage>k__BackingField: {fileID: 0}
     <OptionAIsCorrect>k__BackingField: 0
     <OptionBType>k__BackingField: 0
-    <OptionBText>k__BackingField: "Untuk memperlambat atau menghentikan kendaraan 
-      \r"
+    <OptionBText>k__BackingField: "memperlambat atau menghentikan kendaraan  \r"
     <OptionBImage>k__BackingField: {fileID: 0}
     <OptionBIsCorrect>k__BackingField: 1
     <OptionCType>k__BackingField: 0
-    <OptionCText>k__BackingField: "Untuk mengatur suhu mesin  \r"
+    <OptionCText>k__BackingField: "mengatur suhu mesin  \r"
     <OptionCImage>k__BackingField: {fileID: 0}
     <OptionCIsCorrect>k__BackingField: 0
     <OptionDType>k__BackingField: 0
-    <OptionDText>k__BackingField: "Untuk memberikan tenaga pada roda\r"
+    <OptionDText>k__BackingField: "memberikan tenaga pada roda\r"
     <OptionDImage>k__BackingField: {fileID: 0}
     <OptionDIsCorrect>k__BackingField: 0
   - <QuestionHasImage>k__BackingField: 0
     <QuestionText>k__BackingField: "Apa peran mesin dalam sebuah kendaraan?\r"
     <QuestionImage>k__BackingField: {fileID: 0}
     <OptionAType>k__BackingField: 0
-    <OptionAText>k__BackingField: "Menyediakan tenaga yang dibutuhkan untuk menggerakkan
-      kendaraan  \r"
+    <OptionAText>k__BackingField: "Menyediakan tenaga untuk menggerakkan kendaraan 
+      \r"
     <OptionAImage>k__BackingField: {fileID: 0}
     <OptionAIsCorrect>k__BackingField: 1
     <OptionBType>k__BackingField: 0
-    <OptionBText>k__BackingField: "Untuk mengatur suhu mesin  \r"
+    <OptionBText>k__BackingField: "mengatur suhu mesin  \r"
     <OptionBImage>k__BackingField: {fileID: 0}
     <OptionBIsCorrect>k__BackingField: 0
     <OptionCType>k__BackingField: 0
-    <OptionCText>k__BackingField: "Untuk meningkatkan kecepatan kendaraan  \r"
+    <OptionCText>k__BackingField: "meningkatkan kecepatan kendaraan  \r"
     <OptionCImage>k__BackingField: {fileID: 0}
     <OptionCIsCorrect>k__BackingField: 0
     <OptionDType>k__BackingField: 0
-    <OptionDText>k__BackingField: "Untuk menyerap guncangan dari permukaan jalan\r"
+    <OptionDText>k__BackingField: "menyerap guncangan dari permukaan jalan\r"
     <OptionDImage>k__BackingField: {fileID: 0}
     <OptionDIsCorrect>k__BackingField: 0
   - <QuestionHasImage>k__BackingField: 1
     <QuestionText>k__BackingField: "Apa fungsi utama indikator kecepatan dalam kendaraan?\r"
     <QuestionImage>k__BackingField: {fileID: 21300000, guid: e5cfcc9834921b646ba85eb45034149a, type: 3}
     <OptionAType>k__BackingField: 0
-    <OptionAText>k__BackingField: "Untuk mengukur konsumsi bahan bakar\r"
+    <OptionAText>k__BackingField: "mengukur konsumsi bahan bakar\r"
     <OptionAImage>k__BackingField: {fileID: 0}
     <OptionAIsCorrect>k__BackingField: 0
     <OptionBType>k__BackingField: 0
-    <OptionBText>k__BackingField: "Untuk menampilkan waktu\r"
+    <OptionBText>k__BackingField: "menampilkan waktu\r"
     <OptionBImage>k__BackingField: {fileID: 0}
     <OptionBIsCorrect>k__BackingField: 0
     <OptionCType>k__BackingField: 0
-    <OptionCText>k__BackingField: "Untuk menunjukkan kecepatan kendaraan\r"
+    <OptionCText>k__BackingField: "menunjukkan kecepatan kendaraan\r"
     <OptionCImage>k__BackingField: {fileID: 0}
     <OptionCIsCorrect>k__BackingField: 1
     <OptionDType>k__BackingField: 0
-    <OptionDText>k__BackingField: "Untuk mengontrol sistem pendingin udara\r"
+    <OptionDText>k__BackingField: "mengontrol sistem pendingin udara\r"
     <OptionDImage>k__BackingField: {fileID: 0}
     <OptionDIsCorrect>k__BackingField: 0
   - <QuestionHasImage>k__BackingField: 1
@@ -572,20 +566,20 @@ MonoBehaviour:
     <QuestionText>k__BackingField: "Apa fungsi kaca spion?\r"
     <QuestionImage>k__BackingField: {fileID: 21300000, guid: 3e4d682fb33574b48b51d1c414cdb06c, type: 3}
     <OptionAType>k__BackingField: 0
-    <OptionAText>k__BackingField: "Untuk memberikan pandangan ke area di belakang
-      kendaraan  \r"
+    <OptionAText>k__BackingField: "memberikan pandangan area di belakang kendaraan 
+      \r"
     <OptionAImage>k__BackingField: {fileID: 0}
     <OptionAIsCorrect>k__BackingField: 1
     <OptionBType>k__BackingField: 0
-    <OptionBText>k__BackingField: "Untuk meningkatkan efisiensi bahan bakar  \r"
+    <OptionBText>k__BackingField: "meningkatkan efisiensi bahan bakar  \r"
     <OptionBImage>k__BackingField: {fileID: 0}
     <OptionBIsCorrect>k__BackingField: 0
     <OptionCType>k__BackingField: 0
-    <OptionCText>k__BackingField: "Untuk mengatur suhu mesin  \r"
+    <OptionCText>k__BackingField: "mengatur suhu mesin  \r"
     <OptionCImage>k__BackingField: {fileID: 0}
     <OptionCIsCorrect>k__BackingField: 0
     <OptionDType>k__BackingField: 0
-    <OptionDText>k__BackingField: "Untuk memberikan tenaga ke roda\r"
+    <OptionDText>k__BackingField: "memberikan tenaga ke roda\r"
     <OptionDImage>k__BackingField: {fileID: 0}
     <OptionDIsCorrect>k__BackingField: 0
   - <QuestionHasImage>k__BackingField: 0
@@ -593,40 +587,40 @@ MonoBehaviour:
       ban secara teratur?\r"
     <QuestionImage>k__BackingField: {fileID: 0}
     <OptionAType>k__BackingField: 0
-    <OptionAText>k__BackingField: "Untuk meningkatkan efisiensi bahan bakar  \r"
+    <OptionAText>k__BackingField: "meningkatkan efisiensi bahan bakar  \r"
     <OptionAImage>k__BackingField: {fileID: 0}
     <OptionAIsCorrect>k__BackingField: 0
     <OptionBType>k__BackingField: 0
-    <OptionBText>k__BackingField: 'Untuk memastikan penanganan yang tepat dan efisiensi
+    <OptionBText>k__BackingField: 'memastikan penanganan yang tepat dan efisiensi
       bahan bakar  '
     <OptionBImage>k__BackingField: {fileID: 0}
     <OptionBIsCorrect>k__BackingField: 1
     <OptionCType>k__BackingField: 0
-    <OptionCText>k__BackingField: "Untuk mengatur suhu mesin  \r"
+    <OptionCText>k__BackingField: "mengatur suhu mesin  \r"
     <OptionCImage>k__BackingField: {fileID: 0}
     <OptionCIsCorrect>k__BackingField: 0
     <OptionDType>k__BackingField: 0
-    <OptionDText>k__BackingField: "Untuk memberikan tenaga pada roda\r"
+    <OptionDText>k__BackingField: "memberikan tenaga pada roda\r"
     <OptionDImage>k__BackingField: {fileID: 0}
     <OptionDIsCorrect>k__BackingField: 0
   - <QuestionHasImage>k__BackingField: 0
     <QuestionText>k__BackingField: "Apa tujuan klakson pada kendaraan bermotor ?\r"
     <QuestionImage>k__BackingField: {fileID: 0}
     <OptionAType>k__BackingField: 0
-    <OptionAText>k__BackingField: "Untuk memperingatkan pengguna jalan lain akan
-      keberadaan Anda  \r"
+    <OptionAText>k__BackingField: "memperingatkan pengguna jalan lain akan keberadaan
+      Anda  \r"
     <OptionAImage>k__BackingField: {fileID: 0}
     <OptionAIsCorrect>k__BackingField: 1
     <OptionBType>k__BackingField: 0
-    <OptionBText>k__BackingField: "Untuk meningkatkan efisiensi bahan bakar  \r"
+    <OptionBText>k__BackingField: "meningkatkan efisiensi bahan bakar  \r"
     <OptionBImage>k__BackingField: {fileID: 0}
     <OptionBIsCorrect>k__BackingField: 0
     <OptionCType>k__BackingField: 0
-    <OptionCText>k__BackingField: "Untuk mengatur suhu mesin  \r"
+    <OptionCText>k__BackingField: "mengatur suhu mesin  \r"
     <OptionCImage>k__BackingField: {fileID: 0}
     <OptionCIsCorrect>k__BackingField: 0
     <OptionDType>k__BackingField: 0
-    <OptionDText>k__BackingField: "Untuk memberikan tenaga pada roda\r"
+    <OptionDText>k__BackingField: "memberikan tenaga pada roda\r"
     <OptionDImage>k__BackingField: {fileID: 0}
     <OptionDIsCorrect>k__BackingField: 0
   - <QuestionHasImage>k__BackingField: 0
@@ -634,20 +628,19 @@ MonoBehaviour:
       ?\r"
     <QuestionImage>k__BackingField: {fileID: 0}
     <OptionAType>k__BackingField: 0
-    <OptionAText>k__BackingField: "Untuk menerangi jalan di depan dan membuat kendaraan
-      terlihat oleh orang lain  \r"
+    <OptionAText>k__BackingField: Menerangi jalan dan membuat kendaraan terlihat.
     <OptionAImage>k__BackingField: {fileID: 0}
     <OptionAIsCorrect>k__BackingField: 1
     <OptionBType>k__BackingField: 0
-    <OptionBText>k__BackingField: "Untuk meningkatkan efisiensi bahan bakar  \r"
+    <OptionBText>k__BackingField: "meningkatkan efisiensi bahan bakar  \r"
     <OptionBImage>k__BackingField: {fileID: 0}
     <OptionBIsCorrect>k__BackingField: 0
     <OptionCType>k__BackingField: 0
-    <OptionCText>k__BackingField: "Untuk memberikan tenaga ke roda  \r"
+    <OptionCText>k__BackingField: "memberikan tenaga ke roda  \r"
     <OptionCImage>k__BackingField: {fileID: 0}
     <OptionCIsCorrect>k__BackingField: 0
     <OptionDType>k__BackingField: 0
-    <OptionDText>k__BackingField: "Untuk mengatur temperatur mesin\r"
+    <OptionDText>k__BackingField: "mengatur temperatur mesin\r"
     <OptionDImage>k__BackingField: {fileID: 0}
     <OptionDIsCorrect>k__BackingField: 0
   - <QuestionHasImage>k__BackingField: 0
@@ -655,8 +648,7 @@ MonoBehaviour:
       kendaraan Anda?\r"
     <QuestionImage>k__BackingField: {fileID: 0}
     <OptionAType>k__BackingField: 0
-    <OptionAText>k__BackingField: "Kaca spion, posisi tempat duduk, dan sabuk pengaman 
-      \r"
+    <OptionAText>k__BackingField: "Spion, posisi duduk, dan sabuk pengaman\r"
     <OptionAImage>k__BackingField: {fileID: 0}
     <OptionAIsCorrect>k__BackingField: 1
     <OptionBType>k__BackingField: 0
@@ -675,8 +667,7 @@ MonoBehaviour:
     <QuestionText>k__BackingField: "Bagaimana cara menangani ban pecah saat mengemudi?\r"
     <QuestionImage>k__BackingField: {fileID: 0}
     <OptionAType>k__BackingField: 0
-    <OptionAText>k__BackingField: "Tetap memegang erat setir, memperlambat secara
-      bertahap, dan menepi dengan aman  \r"
+    <OptionAText>k__BackingField: "Pegang setir, perlambat, dan menepi dengan aman\r"
     <OptionAImage>k__BackingField: {fileID: 0}
     <OptionAIsCorrect>k__BackingField: 1
     <OptionBType>k__BackingField: 0
@@ -697,23 +688,20 @@ MonoBehaviour:
     <QuestionText>k__BackingField: "Bagaimana cara penggunaan lampu sein yang benar?\r"
     <QuestionImage>k__BackingField: {fileID: 0}
     <OptionAType>k__BackingField: 0
-    <OptionAText>k__BackingField: "Untuk menunjukkan niat Anda untuk berbelok atau
-      berpindah lajur  \r"
+    <OptionAText>k__BackingField: "Memberi sinyal  untuk belok atau pindah lajur.\r"
     <OptionAImage>k__BackingField: {fileID: 0}
     <OptionAIsCorrect>k__BackingField: 1
     <OptionBType>k__BackingField: 0
-    <OptionBText>k__BackingField: "Untuk memberi tanda kepada pengemudi lain untuk
-      mendahului Anda  \r"
+    <OptionBText>k__BackingField: "Memberi sinyal kepada pengemudi lain untuk mendahului
+      Anda  \r"
     <OptionBImage>k__BackingField: {fileID: 0}
     <OptionBIsCorrect>k__BackingField: 0
     <OptionCType>k__BackingField: 0
-    <OptionCText>k__BackingField: "Untuk menunjukkan bahwa Anda sedang melambat 
-      \r"
+    <OptionCText>k__BackingField: "menunjukkan bahwa Anda sedang melambat  \r"
     <OptionCImage>k__BackingField: {fileID: 0}
     <OptionCIsCorrect>k__BackingField: 0
     <OptionDType>k__BackingField: 0
-    <OptionDText>k__BackingField: "Untuk menunjukkan bahwa kendaraan Anda mengalami
-      kerusakan\r"
+    <OptionDText>k__BackingField: "menunjukkan bahwa kendaraan Anda mengalami kerusakan\r"
     <OptionDImage>k__BackingField: {fileID: 0}
     <OptionDIsCorrect>k__BackingField: 0
   - <QuestionHasImage>k__BackingField: 1
@@ -741,7 +729,7 @@ MonoBehaviour:
       pada gambar ini?\r"
     <QuestionImage>k__BackingField: {fileID: 21300000, guid: 080f9174f751ccf4faa35fa90836038d, type: 3}
     <OptionAType>k__BackingField: 0
-    <OptionAText>k__BackingField: "Ini menunjukkan area parkir yang ditentukan\r"
+    <OptionAText>k__BackingField: "menunjukkan area parkir yang ditentukan\r"
     <OptionAImage>k__BackingField: {fileID: 0}
     <OptionAIsCorrect>k__BackingField: 0
     <OptionBType>k__BackingField: 0
@@ -781,23 +769,21 @@ MonoBehaviour:
       mendapatkan SIM A?\r"
     <QuestionImage>k__BackingField: {fileID: 0}
     <OptionAType>k__BackingField: 0
-    <OptionAText>k__BackingField: "Persyaratan usia, administratif, kesehatan, dan
-      lulus ujian  \r"
+    <OptionAText>k__BackingField: "administratif, kesehatan, dan lulus ujian  \r"
     <OptionAImage>k__BackingField: {fileID: 0}
     <OptionAIsCorrect>k__BackingField: 1
     <OptionBType>k__BackingField: 0
-    <OptionBText>k__BackingField: "Persyaratan jenis kelamin, pendidikan, keuangan,
-      dan pengalaman  \r"
+    <OptionBText>k__BackingField: "Persyaratan jenis kelamin, keuangan, dan pengalaman 
+      \r"
     <OptionBImage>k__BackingField: {fileID: 0}
     <OptionBIsCorrect>k__BackingField: 0
     <OptionCType>k__BackingField: 0
-    <OptionCText>k__BackingField: "Status sosial, kemampuan bahasa, riwayat mengemudi,
-      dan persyaratan kebugaran fisik  \r"
+    <OptionCText>k__BackingField: "Status sosial, kemampuan bahasa, dan riwayat mengemudi,\r"
     <OptionCImage>k__BackingField: {fileID: 0}
     <OptionCIsCorrect>k__BackingField: 0
     <OptionDType>k__BackingField: 0
-    <OptionDText>k__BackingField: "Persyaratan kewarganegaraan, pekerjaan, tempat
-      tinggal, dan latar belakang keluarga  \r"
+    <OptionDText>k__BackingField: "pekerjaan, tempat tinggal, dan latar belakang
+      keluarga  \r"
     <OptionDImage>k__BackingField: {fileID: 0}
     <OptionDIsCorrect>k__BackingField: 0
   - <QuestionHasImage>k__BackingField: 1
@@ -853,8 +839,7 @@ MonoBehaviour:
     <OptionBImage>k__BackingField: {fileID: 0}
     <OptionBIsCorrect>k__BackingField: 0
     <OptionCType>k__BackingField: 0
-    <OptionCText>k__BackingField: "Mengabaikan rambu tersebut dan terus mengemudi 
-      \r"
+    <OptionCText>k__BackingField: "Abaikan rambu dan terus berkendara.\r"
     <OptionCImage>k__BackingField: {fileID: 0}
     <OptionCIsCorrect>k__BackingField: 0
     <OptionDType>k__BackingField: 0
@@ -886,8 +871,7 @@ MonoBehaviour:
       ini?\r"
     <QuestionImage>k__BackingField: {fileID: 21300000, guid: 39cb98dfd6b510e4380d8cce88357de0, type: 3}
     <OptionAType>k__BackingField: 0
-    <OptionAText>k__BackingField: "Untuk menunjukkan tempat penyeberangan pejalan
-      kaki  \r"
+    <OptionAText>k__BackingField: "Menunjukkan perlintasan pejalan kaki.\r"
     <OptionAImage>k__BackingField: {fileID: 0}
     <OptionAIsCorrect>k__BackingField: 0
     <OptionBType>k__BackingField: 0
@@ -895,8 +879,7 @@ MonoBehaviour:
     <OptionBImage>k__BackingField: {fileID: 0}
     <OptionBIsCorrect>k__BackingField: 0
     <OptionCType>k__BackingField: 0
-    <OptionCText>k__BackingField: "Untuk menunjukkan di mana kendaraan harus berhenti
-      di persimpangan  \r"
+    <OptionCText>k__BackingField: "Menunjukkan lokasi berhenti kendaraan di persimpangan.\r"
     <OptionCImage>k__BackingField: {fileID: 0}
     <OptionCIsCorrect>k__BackingField: 1
     <OptionDType>k__BackingField: 0
@@ -1085,6 +1068,7 @@ RectTransform:
   m_Children:
   - {fileID: 1376935177}
   - {fileID: 1624262236}
+  - {fileID: 1757494946}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1224,17 +1208,17 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: UJIAN TEORI SIM A
+  m_text: TES TEORI SIM A
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: a2db6d899e2f999468e57b929481610a, type: 2}
+  m_sharedMaterial: {fileID: -8349065137591305348, guid: a2db6d899e2f999468e57b929481610a, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1381,6 +1365,81 @@ MonoBehaviour:
   m_DeselectOnBackgroundClick: 1
   m_PointerBehavior: 0
   m_CursorLockBehavior: 0
+--- !u!1 &1757494945
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1757494946}
+  - component: {fileID: 1757494948}
+  - component: {fileID: 1757494947}
+  m_Layer: 5
+  m_Name: Image
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1757494946
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757494945}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 262238432}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 930.8, y: 512.3}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1757494947
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757494945}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 02bc6413e9c541c4c8fd2e7501c27232, type: 3}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1757494948
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1757494945}
+  m_CullTransparentMesh: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
