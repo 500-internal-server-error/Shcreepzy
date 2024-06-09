@@ -1,6 +1,8 @@
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Shcreepzy
@@ -10,6 +12,7 @@ namespace Shcreepzy
         [Header("References")]
 
         [SerializeField] private Canvas canvas;
+        [SerializeField] private SceneAsset mainMenuScene;
 
         [Header("References - Main View")]
 
@@ -146,12 +149,12 @@ namespace Shcreepzy
 
         public void OnWinButtonClicked()
         {
-            Debug.Log("win");
+            SceneManager.LoadScene(mainMenuScene.name, LoadSceneMode.Single);
         }
 
         public void OnLoseButtonClicked()
         {
-            Debug.Log("lose");
+            SceneManager.LoadScene(mainMenuScene.name, LoadSceneMode.Single);
         }
     }
 }

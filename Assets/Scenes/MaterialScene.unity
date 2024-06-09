@@ -759,6 +759,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 167d10f430acbb94b9172f758e1f9882, type: 3}
   - {fileID: 21300000, guid: cabc188f578e6314492665d0d6459bfd, type: 3}
   quitButton: {fileID: 1873488332}
+  quitTargetScene: {fileID: 102900000, guid: 5100f109d7c94574899be09c9e0bcd1e, type: 3}
   backButton: {fileID: 159880623}
   nextButton: {fileID: 1610429280}
 --- !u!1 &1376935176
