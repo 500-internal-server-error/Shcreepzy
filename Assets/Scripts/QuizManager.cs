@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace Shcreepzy
 {
@@ -9,9 +10,25 @@ namespace Shcreepzy
         [Header("References")]
 
         [SerializeField] private Canvas canvas;
+
+        [Header("References - Main View")]
+
+        [SerializeField] private RectTransform mainView;
         [SerializeField] private TextMeshProUGUI timer;
         [SerializeField] private QuizQuestionObject quizQuestionPrefab;
         private QuizQuestionObject currentQuizQuestionObject;
+
+        [Header("References - Win View")]
+
+        [SerializeField] private RectTransform winView;
+        [SerializeField] private TextMeshProUGUI winScore;
+        [SerializeField] private Button winButton;
+
+        [Header("References - Lose View")]
+
+        [SerializeField] private RectTransform loseView;
+        [SerializeField] private TextMeshProUGUI loseScore;
+        [SerializeField] private Button loseButton;
 
         [Header("Quiz Timer Settings")]
 
@@ -32,6 +49,18 @@ namespace Shcreepzy
             minimumCorrectAnswers = Mathf.Clamp(minimumCorrectAnswers, 0, quizQuestions.Count);
         }
 
+        private void OnEnable()
+        {
+            winButton.onClick.AddListener(OnWinButtonClicked);
+            loseButton.onClick.AddListener(OnLoseButtonClicked);
+        }
+
+        private void OnDisable()
+        {
+            winButton.onClick.RemoveListener(OnWinButtonClicked);
+            loseButton.onClick.RemoveListener(OnLoseButtonClicked);
+        }
+
         private void Start()
         {
             currentQuestionIndex = 0;
@@ -44,6 +73,10 @@ namespace Shcreepzy
                 Debug.LogWarning("currentQuestion is not null for some reason, destroying object");
                 Object.Destroy(currentQuizQuestionObject.gameObject);
             }
+
+            mainView.gameObject.SetActive(true);
+            winView.gameObject.SetActive(false);
+            loseView.gameObject.SetActive(false);
 
             SpawnNextQuestion();
         }
@@ -62,9 +95,13 @@ namespace Shcreepzy
                 currentQuizTime = 0;
                 if (currentQuizQuestionObject != null)
                 {
-                    Debug.Log($"Out of time, {correctAnswers}/{quizQuestions.Count}");
                     Object.Destroy(currentQuizQuestionObject.gameObject);
                     currentQuizQuestionObject = null;
+
+                    mainView.gameObject.SetActive(false);
+                    var (view, score) = correctAnswers >= minimumCorrectAnswers ? (winView, winScore) : (loseView, loseScore);
+                    view.gameObject.SetActive(true);
+                    score.text = $"{correctAnswers}/{quizQuestions.Count}";
                 }
             }
 
@@ -96,8 +133,25 @@ namespace Shcreepzy
 
             Object.Destroy(currentQuizQuestionObject.gameObject);
             currentQuestionIndex++;
-            if (currentQuestionIndex >= quizQuestions.Count) { Debug.Log($"{correctAnswers}/{quizQuestions.Count}"); return; }
+            if (currentQuestionIndex >= quizQuestions.Count)
+            {
+                mainView.gameObject.SetActive(false);
+                var (view, score) = correctAnswers >= minimumCorrectAnswers ? (winView, winScore) : (loseView, loseScore);
+                view.gameObject.SetActive(true);
+                score.text = $"{correctAnswers}/{quizQuestions.Count}";
+                return;
+            }
             SpawnNextQuestion();
+        }
+
+        public void OnWinButtonClicked()
+        {
+            Debug.Log("win");
+        }
+
+        public void OnLoseButtonClicked()
+        {
+            Debug.Log("lose");
         }
     }
 }
