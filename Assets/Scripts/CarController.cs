@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 namespace Shcreepzy
 {
@@ -34,6 +35,9 @@ namespace Shcreepzy
 
         private Vector2 carMoveDirection;
         private float cameraMoveDirection;
+
+        [SerializeField] private LayerMask obstacleLayer;
+        [SerializeField] private LayerMask levelObjectiveLayer;
 
         [Header("Stats")]
 
@@ -122,6 +126,22 @@ namespace Shcreepzy
             );
 
             cameraMoveDirection = cameraMoveAction.ReadValue<float>();
+        }
+
+        private void OnCollisionEnter(Collision other)
+        {
+            if (1 << other.gameObject.layer == obstacleLayer)
+            {
+                Debug.Log($"{1 << other.gameObject.layer} == {obstacleLayer.value}");
+                Debug.Log("hit obstacle");
+                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            }
+
+            // if (other.gameObject.layer == levelObjectiveLayer)
+            // {
+            //     Debug.Log("hit objective");
+            //     LevelObjectiveManager.INSTANCE.OnLevelObjectiveEnter(other.transform);
+            // }
         }
     }
 }
