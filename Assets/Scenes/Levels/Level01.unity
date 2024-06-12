@@ -5538,6 +5538,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 28e6efeab80060a44aeb418ac1f92bce, type: 3}
+--- !u!1 &649734429 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1194075127202944, guid: de53374949c380a43831cdf100ac633d, type: 3}
+  m_PrefabInstance: {fileID: 1987203611}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &656454080
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10623,7 +10628,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rb: {fileID: 1197539338}
   wheelFLModel: {fileID: 1987203614}
-  wheelFRModel: {fileID: 1987203612}
+  wheelFRModel: {fileID: 649734429}
   speedometerArrow: {fileID: 1849579370}
   wheelBLCollider: {fileID: 2083866341}
   wheelBRCollider: {fileID: 229177782}
@@ -16583,11 +16588,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de53374949c380a43831cdf100ac633d, type: 3}
---- !u!1 &1987203612 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1838506235643426, guid: de53374949c380a43831cdf100ac633d, type: 3}
-  m_PrefabInstance: {fileID: 1987203611}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1987203613 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4262860458111470, guid: de53374949c380a43831cdf100ac633d, type: 3}
