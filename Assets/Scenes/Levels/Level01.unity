@@ -3552,7 +3552,7 @@ Camera:
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 33.5
+  field of view: 40
   orthographic: 0
   orthographic size: 5
   m_Depth: -1
@@ -12039,8 +12039,8 @@ MonoBehaviour:
   levelObjectiveLayer:
     serializedVersion: 2
     m_Bits: 128
-  maxWheelAngle: 45
-  power: 500
+  maxWheelAngle: 30
+  power: 600
 --- !u!114 &1197539340
 MonoBehaviour:
   m_ObjectHideFlags: 0
