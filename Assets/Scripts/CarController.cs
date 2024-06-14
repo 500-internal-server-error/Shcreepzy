@@ -48,6 +48,8 @@ namespace Shcreepzy
         {
             carMoveAction = playerInput.actions["MoveCar"];
             cameraMoveAction = playerInput.actions["MoveCamera"];
+
+            this.transform.position = LevelObjectiveManager.INSTANCE.GetSpawnPosition() ?? this.transform.position;
         }
 
         private void FixedUpdate()
@@ -134,7 +136,7 @@ namespace Shcreepzy
             {
                 Debug.Log($"{1 << other.gameObject.layer} == {obstacleLayer.value}");
                 Debug.Log("hit obstacle");
-                SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                LevelObjectiveManager.INSTANCE.OnObstacleEnter(other.transform);
             }
         }
 
