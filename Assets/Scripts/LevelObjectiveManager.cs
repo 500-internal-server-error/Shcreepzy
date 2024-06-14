@@ -40,7 +40,7 @@ namespace Shcreepzy
         {
             if (hitLevelObjective.position == levelObjectives[currentObjectiveIndex].transform.position)
             {
-                Debug.Log("objective hit");
+                Debug.Log("objective hit, moving to next objective");
                 currentObjectiveIndex++;
                 if (currentObjectiveIndex >= levelObjectives.Count) Debug.Log("no more objectives");
             }

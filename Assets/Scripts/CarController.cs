@@ -136,12 +136,15 @@ namespace Shcreepzy
                 Debug.Log("hit obstacle");
                 SceneManager.LoadScene(SceneManager.GetActiveScene().name);
             }
+        }
 
-            // if (other.gameObject.layer == levelObjectiveLayer)
-            // {
-            //     Debug.Log("hit objective");
-            //     LevelObjectiveManager.INSTANCE.OnLevelObjectiveEnter(other.transform);
-            // }
+        private void OnTriggerEnter(Collider other)
+        {
+            if (1 << other.gameObject.layer == levelObjectiveLayer)
+            {
+                Debug.Log("hit objective");
+                LevelObjectiveManager.INSTANCE.OnLevelObjectiveEnter(other.transform);
+            }
         }
     }
 }
