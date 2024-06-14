@@ -63,11 +63,11 @@ namespace Shcreepzy
             }
         }
 
-        public Vector3? GetSpawnPosition()
+        public Transform GetSpawnLocation()
         {
             if (lastObjectiveIndex == null) return null;
             // Once again not smart enough to tell its definitely not null at this point
-            return levelObjectives[lastObjectiveIndex ?? 0].transform.position;
+            return levelObjectives[lastObjectiveIndex ?? 0].transform;
         }
     }
 }

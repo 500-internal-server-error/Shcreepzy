@@ -49,7 +49,12 @@ namespace Shcreepzy
             carMoveAction = playerInput.actions["MoveCar"];
             cameraMoveAction = playerInput.actions["MoveCamera"];
 
-            this.transform.position = LevelObjectiveManager.INSTANCE.GetSpawnPosition() ?? this.transform.position;
+            Transform location = LevelObjectiveManager.INSTANCE?.GetSpawnLocation();
+            if (location != null)
+            {
+                this.transform.position = location.position;
+                this.transform.rotation = location.rotation;
+            }
         }
 
         private void FixedUpdate()
