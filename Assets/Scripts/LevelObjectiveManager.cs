@@ -20,7 +20,7 @@ namespace Shcreepzy
             {
                 if (1 << objective.gameObject.layer != levelObjectiveLayer)
                 {
-                    Debug.LogWarning($"LevelObjective object {objective.gameObject.name} is on layer {objective.gameObject.layer} instead of layer {levelObjectiveLayer.value}!");
+                    Debug.LogWarning($"LevelObjective object {objective.gameObject.name} is on layer {1 << objective.gameObject.layer} instead of layer {levelObjectiveLayer.value}!");
                 }
             }
         }
