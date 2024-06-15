@@ -147,10 +147,10 @@ namespace Shcreepzy
 
         private void OnTriggerEnter(Collider other)
         {
-            if (1 << other.gameObject.layer == levelObjectiveLayer)
+            if (1 << other.gameObject.layer == levelObjectiveLayer) { }
             {
                 Debug.Log("hit objective");
-                LevelObjectiveManager.INSTANCE.OnLevelObjectiveEnter(other.transform);
+                LevelObjectiveManager.INSTANCE.OnLevelObjectiveEnter(other.gameObject.GetComponent<LevelObjective>());
             }
         }
     }

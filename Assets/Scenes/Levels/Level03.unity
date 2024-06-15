@@ -894,6 +894,7 @@ GameObject:
   m_Component:
   - component: {fileID: 109629536}
   - component: {fileID: 109629535}
+  - component: {fileID: 109629537}
   m_Layer: 7
   m_Name: LevelObjective 1
   m_TagString: Untagged
@@ -937,6 +938,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1686477696}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &109629537
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 109629534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!1 &111301428
 GameObject:
   m_ObjectHideFlags: 0
@@ -4435,6 +4450,7 @@ GameObject:
   m_Component:
   - component: {fileID: 502885483}
   - component: {fileID: 502885482}
+  - component: {fileID: 502885484}
   m_Layer: 7
   m_Name: Zig Zag4 (1)
   m_TagString: Untagged
@@ -4478,6 +4494,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1686477696}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &502885484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 502885481}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!1001 &505523098
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4917,6 +4947,7 @@ GameObject:
   m_Component:
   - component: {fileID: 516256955}
   - component: {fileID: 516256956}
+  - component: {fileID: 516256957}
   m_Layer: 7
   m_Name: LevelObjective 3
   m_TagString: Untagged
@@ -4960,6 +4991,20 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 4.11, y: 1.1995556, z: 0.87}
   m_Center: {x: 0, y: 0.35977775, z: 0}
+--- !u!114 &516256957
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 516256954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!1001 &518007685
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7832,6 +7877,7 @@ GameObject:
   m_Component:
   - component: {fileID: 910528214}
   - component: {fileID: 910528213}
+  - component: {fileID: 910528215}
   m_Layer: 7
   m_Name: LevelObjective 4
   m_TagString: Untagged
@@ -7875,6 +7921,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1686477696}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &910528215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 910528212}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!1001 &918910062
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9506,6 +9566,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1023774815}
   - component: {fileID: 1023774814}
+  - component: {fileID: 1023774816}
   m_Layer: 7
   m_Name: LevelObjective 6
   m_TagString: Untagged
@@ -9549,6 +9610,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1686477696}
   m_LocalEulerAnglesHint: {x: 0, y: -89.92, z: 0}
+--- !u!114 &1023774816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1023774813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!43 &1028943870
 Mesh:
   m_ObjectHideFlags: 0
@@ -11197,6 +11272,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1287039517}
   - component: {fileID: 1287039516}
+  - component: {fileID: 1287039518}
   m_Layer: 7
   m_Name: Zig Zag1
   m_TagString: Untagged
@@ -11240,6 +11316,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1686477696}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1287039518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1287039515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!1001 &1296960099
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11403,6 +11493,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1299510224}
   - component: {fileID: 1299510223}
+  - component: {fileID: 1299510225}
   m_Layer: 7
   m_Name: Zig Zag4
   m_TagString: Untagged
@@ -11446,6 +11537,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1686477696}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1299510225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299510222}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!1 &1322008016 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4841320917888766234, guid: 08949012218a66446aa50a67a787eba4, type: 3}
@@ -11656,6 +11761,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1324549878}
   - component: {fileID: 1324549877}
+  - component: {fileID: 1324549879}
   m_Layer: 7
   m_Name: LevelObjective 7
   m_TagString: Untagged
@@ -11699,6 +11805,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1686477696}
   m_LocalEulerAnglesHint: {x: 0, y: 269.01, z: 0}
+--- !u!114 &1324549879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1324549876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!1001 &1335689470
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11803,6 +11923,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1337923019}
   - component: {fileID: 1337923018}
+  - component: {fileID: 1337923020}
   m_Layer: 7
   m_Name: LevelObjective 2
   m_TagString: Untagged
@@ -11846,6 +11967,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1686477696}
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+--- !u!114 &1337923020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1337923017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!1 &1347565709
 GameObject:
   m_ObjectHideFlags: 0
@@ -14719,6 +14854,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1609672815}
   - component: {fileID: 1609672814}
+  - component: {fileID: 1609672816}
   m_Layer: 7
   m_Name: Zig Zag3
   m_TagString: Untagged
@@ -14762,6 +14898,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1686477696}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1609672816
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1609672813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!1001 &1612035511
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -15068,21 +15218,21 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   levelObjectives:
-  - {fileID: 1287039516}
-  - {fileID: 1941821236}
-  - {fileID: 1952929250}
-  - {fileID: 1948678248}
-  - {fileID: 1609672814}
-  - {fileID: 1978433979}
-  - {fileID: 1299510223}
-  - {fileID: 502885482}
-  - {fileID: 109629535}
-  - {fileID: 1337923018}
-  - {fileID: 516256956}
-  - {fileID: 910528213}
-  - {fileID: 1964225257}
-  - {fileID: 1023774814}
-  - {fileID: 1324549877}
+  - {fileID: 1287039518}
+  - {fileID: 1941821238}
+  - {fileID: 1952929252}
+  - {fileID: 1948678250}
+  - {fileID: 1609672816}
+  - {fileID: 1978433981}
+  - {fileID: 1299510225}
+  - {fileID: 502885484}
+  - {fileID: 109629537}
+  - {fileID: 1337923020}
+  - {fileID: 516256957}
+  - {fileID: 910528215}
+  - {fileID: 1964225259}
+  - {fileID: 1023774816}
+  - {fileID: 1324549879}
 --- !u!4 &1686477696
 Transform:
   m_ObjectHideFlags: 0
@@ -16683,6 +16833,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1941821237}
   - component: {fileID: 1941821236}
+  - component: {fileID: 1941821238}
   m_Layer: 7
   m_Name: Zig Zag1 (1)
   m_TagString: Untagged
@@ -16726,6 +16877,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1686477696}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1941821238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1941821235}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!1 &1948678247
 GameObject:
   m_ObjectHideFlags: 0
@@ -16736,6 +16901,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1948678249}
   - component: {fileID: 1948678248}
+  - component: {fileID: 1948678250}
   m_Layer: 7
   m_Name: Zig Zag2 (1)
   m_TagString: Untagged
@@ -16779,6 +16945,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1686477696}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1948678250
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1948678247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!1 &1952929249
 GameObject:
   m_ObjectHideFlags: 0
@@ -16789,6 +16969,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1952929251}
   - component: {fileID: 1952929250}
+  - component: {fileID: 1952929252}
   m_Layer: 7
   m_Name: Zig Zag2
   m_TagString: Untagged
@@ -16832,6 +17013,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1686477696}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1952929252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1952929249}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!1 &1953994649
 GameObject:
   m_ObjectHideFlags: 0
@@ -17039,6 +17234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1964225258}
   - component: {fileID: 1964225257}
+  - component: {fileID: 1964225259}
   m_Layer: 7
   m_Name: LevelObjective 5
   m_TagString: Untagged
@@ -17082,6 +17278,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1686477696}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1964225259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964225256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!1 &1978433978
 GameObject:
   m_ObjectHideFlags: 0
@@ -17092,6 +17302,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1978433980}
   - component: {fileID: 1978433979}
+  - component: {fileID: 1978433981}
   m_Layer: 7
   m_Name: Zig Zag3 (1)
   m_TagString: Untagged
@@ -17135,6 +17346,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1686477696}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1978433981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1978433978}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!1001 &1991243340
 PrefabInstance:
   m_ObjectHideFlags: 0

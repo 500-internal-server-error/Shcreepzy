@@ -10,13 +10,14 @@ namespace Shcreepzy
         public static LevelObjectiveManager INSTANCE { get; private set; }
 
         [SerializeField] private LayerMask levelObjectiveLayer;
-        [SerializeField] private List<Collider> levelObjectives;
+        [SerializeField] private List<LevelObjective> levelObjectives;
         private int currentObjectiveIndex;
         private int? lastObjectiveIndex;
+        private float timeSinceLastObjective;
 
         private void OnValidate()
         {
-            foreach (Collider objective in levelObjectives)
+            foreach (LevelObjective objective in levelObjectives)
             {
                 if (1 << objective.gameObject.layer != levelObjectiveLayer)
                 {
@@ -41,6 +42,12 @@ namespace Shcreepzy
 
             currentObjectiveIndex = 0;
             lastObjectiveIndex = null;
+            timeSinceLastObjective = 0;
+        }
+
+        private void Update()
+        {
+            timeSinceLastObjective += Time.deltaTime;
         }
 
         public void OnObstacleEnter(Transform hitObstacle)
@@ -48,14 +55,25 @@ namespace Shcreepzy
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
-        public void OnLevelObjectiveEnter(Transform hitLevelObjective)
+        public void OnLevelObjectiveEnter(LevelObjective hitLevelObjective)
         {
-            if (hitLevelObjective.position == levelObjectives[currentObjectiveIndex].transform.position)
+            if (hitLevelObjective.transform.position == levelObjectives[currentObjectiveIndex].transform.position)
             {
+                if (timeSinceLastObjective - hitLevelObjective.GetMinimumTimeSinceLastObjective() < 0)
+                {
+                    Debug.Log("objective hit but is too fast");
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                    return;
+                }
                 Debug.Log("objective hit, moving to next objective");
                 lastObjectiveIndex = currentObjectiveIndex;
                 currentObjectiveIndex++;
-                if (currentObjectiveIndex >= levelObjectives.Count) Debug.Log("no more objectives");
+                if (currentObjectiveIndex >= levelObjectives.Count)
+                {
+                    Debug.Log("no more objectives");
+                    return;
+                }
+                timeSinceLastObjective = 0;
             }
             else
             {

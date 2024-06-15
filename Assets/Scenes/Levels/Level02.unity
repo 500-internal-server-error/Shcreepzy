@@ -5347,6 +5347,7 @@ GameObject:
   m_Component:
   - component: {fileID: 586768909}
   - component: {fileID: 586768908}
+  - component: {fileID: 586768910}
   m_Layer: 7
   m_Name: LevelObjective 2
   m_TagString: Finish
@@ -5390,6 +5391,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 951449164}
   m_LocalEulerAnglesHint: {x: 0, y: 87.1, z: 0}
+--- !u!114 &586768910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586768907}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!1001 &596267896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5671,6 +5686,7 @@ GameObject:
   m_Component:
   - component: {fileID: 608884894}
   - component: {fileID: 608884893}
+  - component: {fileID: 608884895}
   m_Layer: 7
   m_Name: LevelObjective (3)
   m_TagString: Finish
@@ -5714,6 +5730,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 951449164}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &608884895
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608884892}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!1001 &612473286
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9154,9 +9184,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   levelObjectives:
-  - {fileID: 1625250588}
-  - {fileID: 608884893}
-  - {fileID: 586768908}
+  - {fileID: 1625250590}
+  - {fileID: 586768910}
+  - {fileID: 608884895}
 --- !u!4 &951449164
 Transform:
   m_ObjectHideFlags: 0
@@ -14321,6 +14351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1625250589}
   - component: {fileID: 1625250588}
+  - component: {fileID: 1625250590}
   m_Layer: 7
   m_Name: LevelObjective
   m_TagString: Finish
@@ -14364,6 +14395,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 951449164}
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+--- !u!114 &1625250590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1625250587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b3339394c185284d88f8c11db3a6464, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hasMinimumTimeSinceLastObjective: 0
+  minimumTimeSinceLastObjective: 0
 --- !u!1 &1629804682
 GameObject:
   m_ObjectHideFlags: 0
