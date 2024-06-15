@@ -15,7 +15,7 @@ namespace Shcreepzy
         private void FixedUpdate()
         {
             if (doDaylightCycle) time++;
-            if (time > MAX_TIME) time = 0;
+            if (time >= MAX_TIME) time = 0;
             source.transform.rotation = Quaternion.Euler(50, (float)time / (float)MAX_TIME * 360, 0);
         }
     }

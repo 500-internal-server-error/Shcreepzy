@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 namespace Shcreepzy
 {
@@ -35,6 +36,9 @@ namespace Shcreepzy
         private Vector2 carMoveDirection;
         private float cameraMoveDirection;
 
+        [SerializeField] private LayerMask obstacleLayer;
+        [SerializeField] private LayerMask levelObjectiveLayer;
+
         [Header("Stats")]
 
         [SerializeField, Range(0, 90)] private float maxWheelAngle;
@@ -42,8 +46,19 @@ namespace Shcreepzy
 
         private void Start()
         {
+            // Crossing the DontDestroyOnLoad border results in broken references
+            // TODO: find a better way to do this
+            speedometerArrow = GameObject.Find("Arrow");
+
             carMoveAction = playerInput.actions["MoveCar"];
             cameraMoveAction = playerInput.actions["MoveCamera"];
+
+            Transform location = LevelObjectiveManager.INSTANCE?.GetSpawnLocation();
+            if (location != null)
+            {
+                this.transform.position = location.position;
+                this.transform.rotation = location.rotation;
+            }
         }
 
         private void FixedUpdate()
@@ -122,6 +137,25 @@ namespace Shcreepzy
             );
 
             cameraMoveDirection = cameraMoveAction.ReadValue<float>();
+        }
+
+        private void OnCollisionEnter(Collision other)
+        {
+            if (1 << other.gameObject.layer == obstacleLayer)
+            {
+                Debug.Log($"{1 << other.gameObject.layer} == {obstacleLayer.value}");
+                Debug.Log("hit obstacle");
+                LevelObjectiveManager.INSTANCE.OnObstacleEnter(other.transform);
+            }
+        }
+
+        private void OnTriggerEnter(Collider other)
+        {
+            if (1 << other.gameObject.layer == levelObjectiveLayer) { }
+            {
+                Debug.Log("hit objective");
+                LevelObjectiveManager.INSTANCE.OnLevelObjectiveEnter(other.gameObject.GetComponent<LevelObjective>());
+            }
         }
     }
 }
