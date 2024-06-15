@@ -46,6 +46,10 @@ namespace Shcreepzy
 
         private void Start()
         {
+            // Crossing the DontDestroyOnLoad border results in broken references
+            // TODO: find a better way to do this
+            speedometerArrow = GameObject.Find("Arrow");
+
             carMoveAction = playerInput.actions["MoveCar"];
             cameraMoveAction = playerInput.actions["MoveCamera"];
 

@@ -11,6 +11,7 @@ namespace Shcreepzy
 
         [SerializeField] private LayerMask levelObjectiveLayer;
         [SerializeField] private List<LevelObjective> levelObjectives;
+        [SerializeField] private ObjectiveListUI objectiveListUI;
         private int currentObjectiveIndex;
         private int? lastObjectiveIndex;
         private float timeSinceLastObjective;
@@ -65,6 +66,8 @@ namespace Shcreepzy
                     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
                     return;
                 }
+
+                if (hitLevelObjective.ShouldPopObjective()) objectiveListUI.PopObjective();
                 Debug.Log("objective hit, moving to next objective");
                 lastObjectiveIndex = currentObjectiveIndex;
                 currentObjectiveIndex++;
