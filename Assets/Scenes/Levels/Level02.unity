@@ -3886,8 +3886,8 @@ MonoBehaviour:
   m_text: "Parkir Seri mundur 0 / 1 \nParkir pararel 0 / 1 \nParkir seri maju 0 /
     1 "
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f5ae864a7877cfa47adb97fc20667e06, type: 2}
-  m_sharedMaterial: {fileID: 418743696692453894, guid: f5ae864a7877cfa47adb97fc20667e06, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ae1e1c54b61fcd54d987deac02516ad3, type: 2}
+  m_sharedMaterial: {fileID: 8646158289184217323, guid: ae1e1c54b61fcd54d987deac02516ad3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -4416,8 +4416,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Control  \nW : Akselerasi \nA  : Belok Kiri\nS  : Mundur\nD  : Belok Kanan"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f5ae864a7877cfa47adb97fc20667e06, type: 2}
-  m_sharedMaterial: {fileID: 418743696692453894, guid: f5ae864a7877cfa47adb97fc20667e06, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ae1e1c54b61fcd54d987deac02516ad3, type: 2}
+  m_sharedMaterial: {fileID: 8646158289184217323, guid: ae1e1c54b61fcd54d987deac02516ad3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
