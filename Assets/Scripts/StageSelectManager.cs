@@ -24,6 +24,11 @@ namespace Shcreepzy
             gameButton.onClick.RemoveListener(OnGameButtonClicked);
         }
 
+        private void Start()
+        {
+            if (!GameDataManager.INSTANCE.data.finishedQuiz) gameButton.interactable = false;
+        }
+
         private void OnQuizButtonClicked()
         {
             SceneManager.LoadScene(quizScene.name);

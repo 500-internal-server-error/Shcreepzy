@@ -149,11 +149,13 @@ namespace Shcreepzy
 
         public void OnWinButtonClicked()
         {
+            GameDataManager.INSTANCE.data.finishedQuiz = true;
             SceneManager.LoadScene(mainMenuScene.name, LoadSceneMode.Single);
         }
 
         public void OnLoseButtonClicked()
         {
+            GameDataManager.INSTANCE.data.finishedQuiz = false;
             SceneManager.LoadScene(mainMenuScene.name, LoadSceneMode.Single);
         }
     }
