@@ -15,6 +15,10 @@ namespace Shcreepzy
 
         public static GameDataManager INSTANCE { get; private set; }
 
+#if UNITY_EDITOR
+        [SerializeField] private bool debugMode;
+#endif
+
         public GameData data;
 
         private void Start()
@@ -33,5 +37,12 @@ namespace Shcreepzy
             data.rng = new SystemRandom();
             data.finishedQuiz = false;
         }
+
+#if UNITY_EDITOR
+        public bool IsDebugMode()
+        {
+            return debugMode;
+        }
+#endif
     }
 }

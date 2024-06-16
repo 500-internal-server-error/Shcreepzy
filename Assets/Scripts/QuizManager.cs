@@ -68,6 +68,14 @@ namespace Shcreepzy
         {
             quizQuestions.Shuffle(GameDataManager.INSTANCE.data.rng);
 
+#if UNITY_EDITOR
+            if (GameDataManager.INSTANCE.IsDebugMode())
+            {
+                maxQuizTime = 5;
+                minimumCorrectAnswers = 0;
+            }
+#endif
+
             currentQuestionIndex = 0;
             correctAnswers = 0;
             currentQuizTime = maxQuizTime;

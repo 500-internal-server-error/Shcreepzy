@@ -26,6 +26,9 @@ namespace Shcreepzy
 
         private void Start()
         {
+#if UNITY_EDITOR
+            if (GameDataManager.INSTANCE.IsDebugMode()) return;
+#endif
             if (!GameDataManager.INSTANCE.data.finishedQuiz) gameButton.interactable = false;
         }
 

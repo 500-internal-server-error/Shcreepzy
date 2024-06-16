@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
@@ -8,6 +9,8 @@ namespace Shcreepzy
     public class LevelObjectiveManager : MonoBehaviour
     {
         public static LevelObjectiveManager INSTANCE { get; private set; }
+
+        [SerializeField] private SceneAsset nextScene;
 
         [SerializeField] private LayerMask levelObjectiveLayer;
         [SerializeField] private List<LevelObjective> levelObjectives;
@@ -46,6 +49,13 @@ namespace Shcreepzy
             timeSinceLastObjective = 0;
         }
 
+        // TODO: This is jank af, could probably use GameDataManager but alas that was invented way later
+        private void Die()
+        {
+            Object.Destroy(this.gameObject);
+            INSTANCE = null;
+        }
+
         private void Update()
         {
             timeSinceLastObjective += Time.deltaTime;
@@ -53,6 +63,9 @@ namespace Shcreepzy
 
         public void OnObstacleEnter(Transform hitObstacle)
         {
+#if UNITY_EDITOR
+            if (GameDataManager.INSTANCE.IsDebugMode()) return;
+#endif
             SceneManager.LoadScene(SceneManager.GetActiveScene().name);
         }
 
@@ -63,6 +76,9 @@ namespace Shcreepzy
                 if (timeSinceLastObjective - hitLevelObjective.GetMinimumTimeSinceLastObjective() < 0)
                 {
                     Debug.Log("objective hit but is too fast");
+#if UNITY_EDITOR
+                    if (GameDataManager.INSTANCE.IsDebugMode()) return;
+#endif
                     SceneManager.LoadScene(SceneManager.GetActiveScene().name);
                     return;
                 }
@@ -74,6 +90,10 @@ namespace Shcreepzy
                 if (currentObjectiveIndex >= levelObjectives.Count)
                 {
                     Debug.Log("no more objectives");
+                    PersistentCanvas.INSTANCE.Die();
+                    Die();
+                    // TODO: Find a better way to do this, this is jank af
+                    SceneManager.LoadScene(nextScene.name);
                     return;
                 }
                 timeSinceLastObjective = 0;
