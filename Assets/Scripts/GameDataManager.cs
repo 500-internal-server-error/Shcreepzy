@@ -1,12 +1,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using SystemRandom = System.Random;
+
 namespace Shcreepzy
 {
     public class GameDataManager : MonoBehaviour
     {
         public struct GameData
         {
+            public SystemRandom rng;
             public bool finishedQuiz;
         }
 
@@ -27,6 +30,7 @@ namespace Shcreepzy
                 DontDestroyOnLoad(this.gameObject);
             }
 
+            data.rng = new SystemRandom();
             data.finishedQuiz = false;
         }
     }

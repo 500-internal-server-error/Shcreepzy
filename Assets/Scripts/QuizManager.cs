@@ -66,6 +66,8 @@ namespace Shcreepzy
 
         private void Start()
         {
+            quizQuestions.Shuffle(GameDataManager.INSTANCE.data.rng);
+
             currentQuestionIndex = 0;
             correctAnswers = 0;
             currentQuizTime = maxQuizTime;
