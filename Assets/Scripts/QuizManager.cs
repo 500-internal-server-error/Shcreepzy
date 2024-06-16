@@ -12,7 +12,7 @@ namespace Shcreepzy
         [Header("References")]
 
         [SerializeField] private Canvas canvas;
-        [SerializeField] private SceneAsset mainMenuScene;
+        [SerializeField] private SceneAsset previousScene;
 
         [Header("References - Main View")]
 
@@ -152,13 +152,13 @@ namespace Shcreepzy
         public void OnWinButtonClicked()
         {
             GameDataManager.INSTANCE.data.finishedQuiz = true;
-            SceneManager.LoadScene(mainMenuScene.name, LoadSceneMode.Single);
+            SceneManager.LoadScene(previousScene.name, LoadSceneMode.Single);
         }
 
         public void OnLoseButtonClicked()
         {
             GameDataManager.INSTANCE.data.finishedQuiz = false;
-            SceneManager.LoadScene(mainMenuScene.name, LoadSceneMode.Single);
+            SceneManager.LoadScene(previousScene.name, LoadSceneMode.Single);
         }
     }
 }
