@@ -1,4 +1,6 @@
+using UnityEditor;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 namespace Shcreepzy
@@ -19,6 +21,10 @@ namespace Shcreepzy
 
         [SerializeField] private GameObject slide03;
         [SerializeField] private Button slide03Button;
+
+        [Header("Target")]
+
+        [SerializeField] private SceneAsset nextScene;
 
         private void OnEnable()
         {
@@ -79,7 +85,7 @@ namespace Shcreepzy
 
         private void OnSlide03ButtonClicked()
         {
-            Debug.Log("play button clicked");
+            SceneManager.LoadScene(nextScene.name);
         }
     }
 }
