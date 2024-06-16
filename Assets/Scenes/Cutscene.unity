@@ -1296,7 +1296,7 @@ MonoBehaviour:
   slide02Button: {fileID: 1855655544}
   slide03: {fileID: 1311373387}
   slide03Button: {fileID: 1379816839}
-  nextScene: {fileID: 102900000, guid: 0c419c953a096a943ac0a68e243bae79, type: 3}
+  nextScene: {fileID: 102900000, guid: 41cd0e0e1d6af95499786a347289dabd, type: 3}
 --- !u!1 &1855655542
 GameObject:
   m_ObjectHideFlags: 0
