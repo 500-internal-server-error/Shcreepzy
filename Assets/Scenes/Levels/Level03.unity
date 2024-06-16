@@ -3646,7 +3646,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hasMinimumTimeSinceLastObjective: 1
   minimumTimeSinceLastObjective: 3
-  popsObjective: 1
+  popsObjective: 0
 --- !u!65 &353173048
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3666,8 +3666,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1.796329, z: 1}
-  m_Center: {x: 0, y: 0.39816463, z: 5.32}
+  m_Size: {x: 3.29, y: 1.796329, z: 0.96}
+  m_Center: {x: 1.31, y: 0.34, z: 4.48}
 --- !u!4 &353173049
 Transform:
   m_ObjectHideFlags: 0
