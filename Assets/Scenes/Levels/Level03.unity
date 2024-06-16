@@ -3646,7 +3646,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hasMinimumTimeSinceLastObjective: 1
   minimumTimeSinceLastObjective: 3
-  popsObjective: 0
+  popsObjective: 1
 --- !u!65 &353173048
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -13057,7 +13057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hasMinimumTimeSinceLastObjective: 0
   minimumTimeSinceLastObjective: 0
-  popsObjective: 1
+  popsObjective: 0
 --- !u!1001 &1335689470
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16507,7 +16507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c6fddfaeb2c0841af2d6ae2d67057c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: {fileID: 102900000, guid: 5100f109d7c94574899be09c9e0bcd1e, type: 3}
+  nextScene: {fileID: 102900000, guid: 102c2a0d210ea254c84fcbf7855592ce, type: 3}
   levelObjectiveLayer:
     serializedVersion: 2
     m_Bits: 128

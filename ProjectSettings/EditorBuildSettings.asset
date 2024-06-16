@@ -32,5 +32,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level03.unity
     guid: 538c32284561b5a4caca32cee765d2b6
+  - enabled: 1
+    path: Assets/Scenes/ThanksScene.unity
+    guid: 102c2a0d210ea254c84fcbf7855592ce
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
