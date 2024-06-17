@@ -49,7 +49,7 @@ namespace Shcreepzy
         }
 
         // TODO: This is jank af, could probably use GameDataManager but alas that was invented way later
-        private void Die()
+        public void Die()
         {
             Object.Destroy(this.gameObject);
             INSTANCE = null;
