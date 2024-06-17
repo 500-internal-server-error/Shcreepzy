@@ -1,4 +1,3 @@
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -6,11 +5,11 @@ namespace Shcreepzy
 {
     public class BootManager : MonoBehaviour
     {
-        [SerializeField] private SceneAsset nextScene;
+        [SerializeField] private string nextScene;
 
         private void Start()
         {
-            SceneManager.LoadScene(nextScene.name);
+            SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
         }
     }
 }

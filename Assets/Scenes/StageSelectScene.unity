@@ -800,9 +800,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   quizButton: {fileID: 1118083070}
-  quizScene: {fileID: 102900000, guid: eb205602292a5754a8ecdf69f833cf5b, type: 3}
+  quizScene: Scenes/QuizScene
   gameButton: {fileID: 320038476}
-  gameScene: {fileID: 102900000, guid: ec76b7ede2d9ac346bb254b93d61b587, type: 3}
+  gameScene: Scenes/Levels/Level01
 --- !u!4 &899028396
 Transform:
   m_ObjectHideFlags: 0

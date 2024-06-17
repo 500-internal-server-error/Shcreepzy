@@ -3363,6 +3363,55 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 968136621}
   m_SourcePrefab: {fileID: 100100000, guid: 5b37bebced2befa4cb0fa7e92016e465, type: 3}
+--- !u!1 &378446448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 378446450}
+  - component: {fileID: 378446449}
+  m_Layer: 0
+  m_Name: PauseScreenManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &378446449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378446448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 528fc8c609578cd46af582e623e9e74d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseScreen: {fileID: 439209880}
+  menuScene: Scenes/MainMenu
+  pauseButton: {fileID: 912115350}
+  resumeButton: {fileID: 639423893}
+  menuButton: {fileID: 890664269}
+--- !u!4 &378446450
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 378446448}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &378544900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3957,7 +4006,6 @@ GameObject:
   - component: {fileID: 439209881}
   - component: {fileID: 439209884}
   - component: {fileID: 439209883}
-  - component: {fileID: 439209882}
   m_Layer: 5
   m_Name: PauseMenu
   m_TagString: Untagged
@@ -3986,19 +4034,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &439209882
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 439209880}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4b15348721c52b4a9aa271213be49cd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pauseMenu: {fileID: 439209880}
 --- !u!114 &439209883
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6467,19 +6502,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 639423894}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 439209882}
-        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: Resume
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &639423894
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8861,19 +8884,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 890664270}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 439209882}
-        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: Menu
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &890664270
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9166,19 +9177,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 912115351}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 439209882}
-        m_TargetAssemblyTypeName: PauseMenu, Assembly-CSharp
-        m_MethodName: Pause
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &912115351
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9798,8 +9797,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c6fddfaeb2c0841af2d6ae2d67057c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  homeScene: {fileID: 102900000, guid: 5100f109d7c94574899be09c9e0bcd1e, type: 3}
-  nextScene: {fileID: 102900000, guid: 538c32284561b5a4caca32cee765d2b6, type: 3}
+  nextScene: Scenes/Levels/Level03
   levelObjectiveLayer:
     serializedVersion: 2
     m_Bits: 128
@@ -20026,6 +20024,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 2025558756}
   - {fileID: 832575519}
+  - {fileID: 378446450}
   - {fileID: 951449164}
   - {fileID: 607188047}
   - {fileID: 261272655}

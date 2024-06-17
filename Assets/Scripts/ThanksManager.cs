@@ -1,4 +1,3 @@
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -8,7 +7,7 @@ namespace Shcreepzy
     public class ThanksManager : MonoBehaviour
     {
         [SerializeField] private Button button;
-        [SerializeField] private SceneAsset scene;
+        [SerializeField] private string scene;
 
         private void OnEnable()
         {
@@ -22,7 +21,7 @@ namespace Shcreepzy
 
         private void OnButtonClicked()
         {
-            SceneManager.LoadScene(scene.name);
+            SceneManager.LoadScene(scene, LoadSceneMode.Single);
         }
     }
 }

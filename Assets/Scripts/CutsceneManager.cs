@@ -1,4 +1,3 @@
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -24,7 +23,7 @@ namespace Shcreepzy
 
         [Header("Target")]
 
-        [SerializeField] private SceneAsset nextScene;
+        [SerializeField] private string nextScene;
 
         private void OnEnable()
         {
@@ -85,7 +84,7 @@ namespace Shcreepzy
 
         private void OnSlide03ButtonClicked()
         {
-            SceneManager.LoadScene(nextScene.name);
+            SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
         }
     }
 }

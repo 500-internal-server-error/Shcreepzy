@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canvas: {fileID: 262238431}
-  previousScene: {fileID: 102900000, guid: 41cd0e0e1d6af95499786a347289dabd, type: 3}
+  previousScene: Scenes/StageSelectScene
   mainView: {fileID: 1425865186}
   timer: {fileID: 307851839}
   quizQuestionPrefab: {fileID: 4679359071542136565, guid: e7db991f11fc0fc45804a77f048ed7d9, type: 3}
