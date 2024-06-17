@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
@@ -10,7 +9,7 @@ namespace Shcreepzy
     {
         public static LevelObjectiveManager INSTANCE { get; private set; }
 
-        [SerializeField] private SceneAsset nextScene;
+        [SerializeField] private string nextScene;
 
         [SerializeField] private LayerMask levelObjectiveLayer;
         [SerializeField] private List<LevelObjective> levelObjectives;
@@ -66,7 +65,7 @@ namespace Shcreepzy
 #if UNITY_EDITOR
             if (GameDataManager.INSTANCE.IsDebugMode()) return;
 #endif
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
         }
 
         public void OnLevelObjectiveEnter(LevelObjective hitLevelObjective)
@@ -79,7 +78,7 @@ namespace Shcreepzy
 #if UNITY_EDITOR
                     if (GameDataManager.INSTANCE.IsDebugMode()) return;
 #endif
-                    SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+                    SceneManager.LoadScene(SceneManager.GetActiveScene().name, LoadSceneMode.Single);
                     return;
                 }
 
@@ -93,7 +92,7 @@ namespace Shcreepzy
                     PersistentCanvas.INSTANCE.Die();
                     Die();
                     // TODO: Find a better way to do this, this is jank af
-                    SceneManager.LoadScene(nextScene.name);
+                    SceneManager.LoadScene(nextScene, LoadSceneMode.Single);
                     return;
                 }
                 timeSinceLastObjective = 0;

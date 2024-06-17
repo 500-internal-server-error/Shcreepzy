@@ -16507,7 +16507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c6fddfaeb2c0841af2d6ae2d67057c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nextScene: {fileID: 102900000, guid: 102c2a0d210ea254c84fcbf7855592ce, type: 3}
+  nextScene: Scenes/ThanksScene
   levelObjectiveLayer:
     serializedVersion: 2
     m_Bits: 128

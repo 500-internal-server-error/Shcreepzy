@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -13,7 +12,7 @@ namespace Shcreepzy
         private int currentMaterialIndex;
 
         [SerializeField] private Button quitButton;
-        [SerializeField] private SceneAsset quitTargetScene;
+        [SerializeField] private string quitTargetScene;
         [SerializeField] private Button backButton;
         [SerializeField] private Button nextButton;
 
@@ -39,7 +38,7 @@ namespace Shcreepzy
 
         private void QuitMaterialScene()
         {
-            SceneManager.LoadScene(quitTargetScene.name);
+            SceneManager.LoadScene(quitTargetScene, LoadSceneMode.Single);
         }
 
         private void DisplayPreviousSlide()

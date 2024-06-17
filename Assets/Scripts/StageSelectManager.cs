@@ -1,4 +1,3 @@
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -8,9 +7,9 @@ namespace Shcreepzy
     public class StageSelectManager : MonoBehaviour
     {
         [SerializeField] private Button quizButton;
-        [SerializeField] private SceneAsset quizScene;
+        [SerializeField] private string quizScene;
         [SerializeField] private Button gameButton;
-        [SerializeField] private SceneAsset gameScene;
+        [SerializeField] private string gameScene;
 
         private void OnEnable()
         {
@@ -34,12 +33,12 @@ namespace Shcreepzy
 
         private void OnQuizButtonClicked()
         {
-            SceneManager.LoadScene(quizScene.name);
+            SceneManager.LoadScene(quizScene, LoadSceneMode.Single);
         }
 
         private void OnGameButtonClicked()
         {
-            SceneManager.LoadScene(gameScene.name);
+            SceneManager.LoadScene(gameScene, LoadSceneMode.Single);
         }
     }
 }

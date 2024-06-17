@@ -29,12 +29,12 @@ namespace Shcreepzy
 
         private void OnPlayButtonClicked()
         {
-            SceneManager.LoadScene(playScene.name);
+            SceneManager.LoadScene(playScene.name, LoadSceneMode.Single);
         }
 
         private void OnMaterialButtonClicked()
         {
-            SceneManager.LoadScene(materialScene.name);
+            SceneManager.LoadScene(materialScene.name, LoadSceneMode.Single);
         }
 
         private void OnExitButtonClicked()
