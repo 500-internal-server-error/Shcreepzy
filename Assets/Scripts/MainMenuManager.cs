@@ -1,4 +1,3 @@
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -8,9 +7,9 @@ namespace Shcreepzy
     public class MainMenuManager : MonoBehaviour
     {
         [SerializeField] private Button playButton;
-        [SerializeField] private SceneAsset playScene;
+        [SerializeField] private string playScene;
         [SerializeField] private Button materialButton;
-        [SerializeField] private SceneAsset materialScene;
+        [SerializeField] private string materialScene;
         [SerializeField] private Button exitButton;
 
         private void OnEnable()
@@ -29,12 +28,12 @@ namespace Shcreepzy
 
         private void OnPlayButtonClicked()
         {
-            SceneManager.LoadScene(playScene.name, LoadSceneMode.Single);
+            SceneManager.LoadScene(playScene, LoadSceneMode.Single);
         }
 
         private void OnMaterialButtonClicked()
         {
-            SceneManager.LoadScene(materialScene.name, LoadSceneMode.Single);
+            SceneManager.LoadScene(materialScene, LoadSceneMode.Single);
         }
 
         private void OnExitButtonClicked()

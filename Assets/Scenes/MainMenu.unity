@@ -437,9 +437,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playButton: {fileID: 251617594}
-  playScene: {fileID: 102900000, guid: a0fd091dff6149946ab4910792f1f790, type: 3}
+  playScene: Scenes/Cutscene
   materialButton: {fileID: 2145520185}
-  materialScene: {fileID: 102900000, guid: 526b1a55984000644b7bd4706ce744e3, type: 3}
+  materialScene: Scenes/MaterialScene
   exitButton: {fileID: 763983986}
 --- !u!1 &763983984
 GameObject:

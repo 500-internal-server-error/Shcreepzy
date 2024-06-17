@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using TMPro;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -12,7 +11,7 @@ namespace Shcreepzy
         [Header("References")]
 
         [SerializeField] private Canvas canvas;
-        [SerializeField] private SceneAsset previousScene;
+        [SerializeField] private string previousScene;
 
         [Header("References - Main View")]
 
@@ -160,13 +159,13 @@ namespace Shcreepzy
         public void OnWinButtonClicked()
         {
             GameDataManager.INSTANCE.data.finishedQuiz = true;
-            SceneManager.LoadScene(previousScene.name, LoadSceneMode.Single);
+            SceneManager.LoadScene(previousScene, LoadSceneMode.Single);
         }
 
         public void OnLoseButtonClicked()
         {
             GameDataManager.INSTANCE.data.finishedQuiz = false;
-            SceneManager.LoadScene(previousScene.name, LoadSceneMode.Single);
+            SceneManager.LoadScene(previousScene, LoadSceneMode.Single);
         }
     }
 }
