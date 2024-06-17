@@ -6,6 +6,34 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/BootScene.unity
+    guid: e055f30237b87ee408520bc7499aaa86
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 5100f109d7c94574899be09c9e0bcd1e
+  - enabled: 1
+    path: Assets/Scenes/Cutscene.unity
+    guid: a0fd091dff6149946ab4910792f1f790
+  - enabled: 1
+    path: Assets/Scenes/MaterialScene.unity
+    guid: 526b1a55984000644b7bd4706ce744e3
+  - enabled: 1
+    path: Assets/Scenes/StageSelectScene.unity
+    guid: 41cd0e0e1d6af95499786a347289dabd
+  - enabled: 1
+    path: Assets/Scenes/QuizScene.unity
+    guid: eb205602292a5754a8ecdf69f833cf5b
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level01.unity
+    guid: ec76b7ede2d9ac346bb254b93d61b587
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level02.unity
+    guid: a3e929eccd93b5441b3bbba95fe5d2a0
+  - enabled: 1
+    path: Assets/Scenes/Levels/Level03.unity
+    guid: 538c32284561b5a4caca32cee765d2b6
+  - enabled: 1
+    path: Assets/Scenes/ThanksScene.unity
+    guid: 102c2a0d210ea254c84fcbf7855592ce
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

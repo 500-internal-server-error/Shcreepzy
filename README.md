@@ -1,6 +1,9 @@
 # Project Links
 
 - [GitHub](https://github.com/500-internal-server-error/Shcreepzy)
+- [Blender](https://download.blender.org/release/Blender4.1/blender-4.1.1-windows-x64.zip)
+- [Blender to Unity FBX Exporter](https://github.com/EdyJ/blender-to-unity-fbx-exporter/blob/22cd676abb29e3a54640d9c48d6491695903490d/blender-to-unity-fbx-exporter.py)
+	- This plugin automatically adjusts some Unity-specific settings not handled by the default FBX exporter, such as the coordinate system.
 
 # Notes
 
