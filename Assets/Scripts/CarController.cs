@@ -48,7 +48,7 @@ namespace Shcreepzy
         {
             // Crossing the DontDestroyOnLoad border results in broken references
             // TODO: find a better way to do this
-            speedometerArrow = GameObject.Find("Arrow");
+            // speedometerArrow = GameObject.Find("Arrow");
 
             carMoveAction = playerInput.actions["MoveCar"];
             cameraMoveAction = playerInput.actions["MoveCamera"];
@@ -130,11 +130,11 @@ namespace Shcreepzy
         private void Update()
         {
             carMoveDirection = carMoveAction.ReadValue<Vector2>();
-            speedometerArrow.transform.rotation = Quaternion.Euler(
-                0,
-                0,
-                120.0f - ((rb.velocity.magnitude * 240) / 8.0f) // adapted from https://stackoverflow.com/a/929107
-            );
+            // speedometerArrow.transform.rotation = Quaternion.Euler(
+            //     0,
+            //     0,
+            //     120.0f - ((rb.velocity.magnitude * 240) / 8.0f) // adapted from https://stackoverflow.com/a/929107
+            // );
 
             cameraMoveDirection = cameraMoveAction.ReadValue<float>();
         }

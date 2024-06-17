@@ -20,5 +20,12 @@ namespace Shcreepzy
                 DontDestroyOnLoad(this.gameObject);
             }
         }
+
+        // TODO: There's probably a better way than this
+        public void Die()
+        {
+            Object.Destroy(this.gameObject);
+            INSTANCE = null;
+        }
     }
 }

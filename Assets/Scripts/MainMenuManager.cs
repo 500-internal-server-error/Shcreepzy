@@ -8,6 +8,7 @@ namespace Shcreepzy
     public class MainMenuManager : MonoBehaviour
     {
         [SerializeField] private Button playButton;
+        [SerializeField] private SceneAsset playScene;
         [SerializeField] private Button materialButton;
         [SerializeField] private SceneAsset materialScene;
         [SerializeField] private Button exitButton;
@@ -28,7 +29,7 @@ namespace Shcreepzy
 
         private void OnPlayButtonClicked()
         {
-            Debug.Log("play");
+            SceneManager.LoadScene(playScene.name);
         }
 
         private void OnMaterialButtonClicked()

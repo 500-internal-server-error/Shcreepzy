@@ -3666,8 +3666,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1.796329, z: 1}
-  m_Center: {x: 0, y: 0.39816463, z: 5.32}
+  m_Size: {x: 3.29, y: 1.796329, z: 0.96}
+  m_Center: {x: 1.31, y: 0.34, z: 4.48}
 --- !u!4 &353173049
 Transform:
   m_ObjectHideFlags: 0
@@ -13057,7 +13057,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hasMinimumTimeSinceLastObjective: 0
   minimumTimeSinceLastObjective: 0
-  popsObjective: 1
+  popsObjective: 0
 --- !u!1001 &1335689470
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16507,6 +16507,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95c6fddfaeb2c0841af2d6ae2d67057c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  nextScene: {fileID: 102900000, guid: 102c2a0d210ea254c84fcbf7855592ce, type: 3}
   levelObjectiveLayer:
     serializedVersion: 2
     m_Bits: 128
