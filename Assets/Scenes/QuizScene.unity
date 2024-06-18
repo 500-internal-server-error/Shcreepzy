@@ -1321,8 +1321,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 00:00
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a2db6d899e2f999468e57b929481610a, type: 2}
-  m_sharedMaterial: {fileID: -8349065137591305348, guid: a2db6d899e2f999468e57b929481610a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ae1e1c54b61fcd54d987deac02516ad3, type: 2}
+  m_sharedMaterial: {fileID: 8646158289184217323, guid: ae1e1c54b61fcd54d987deac02516ad3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1682,7 +1682,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -40}
+  m_AnchoredPosition: {x: 0, y: -36.86}
   m_SizeDelta: {x: -680, y: 70}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1138854124
@@ -2345,8 +2345,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "TES TEORI \nSIM A"
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: a2db6d899e2f999468e57b929481610a, type: 2}
-  m_sharedMaterial: {fileID: -8349065137591305348, guid: a2db6d899e2f999468e57b929481610a, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: ae1e1c54b61fcd54d987deac02516ad3, type: 2}
+  m_sharedMaterial: {fileID: 8646158289184217323, guid: ae1e1c54b61fcd54d987deac02516ad3, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
