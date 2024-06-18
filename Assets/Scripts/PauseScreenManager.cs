@@ -67,6 +67,7 @@ namespace Shcreepzy
             LevelObjectiveManager.INSTANCE.Die();
             PersistentCanvas.INSTANCE.Die();
             Die();
+            Time.timeScale = 1;
             SceneManager.LoadScene(menuScene);
         }
     }
