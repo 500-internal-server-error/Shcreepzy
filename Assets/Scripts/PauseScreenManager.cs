@@ -27,6 +27,16 @@ namespace Shcreepzy
             menuButton.onClick.RemoveListener(OnMenuButtonClicked);
         }
 
+        private void Start()
+        {
+            // Crossing the DontDestroyOnLoad border results in broken references
+            // TODO: find a better way to do this
+            pauseScreen = GameObject.Find("PauseScreen");
+            pauseButton = GameObject.Find("PauseButton").GetComponent<Button>();
+            resumeButton = GameObject.Find("ResumtButton").GetComponent<Button>();
+            menuButton = GameObject.Find("MenuButton").GetComponent<Button>();
+        }
+
         private void OnPauseButtonClicked()
         {
             pauseScreen.SetActive(true);

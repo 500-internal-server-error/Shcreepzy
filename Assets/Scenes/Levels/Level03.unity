@@ -1311,7 +1311,7 @@ GameObject:
   - component: {fileID: 159591978}
   - component: {fileID: 159591977}
   m_Layer: 5
-  m_Name: Button
+  m_Name: PauseButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2400,7 +2400,7 @@ GameObject:
   - component: {fileID: 226162195}
   - component: {fileID: 226162194}
   m_Layer: 5
-  m_Name: Resume
+  m_Name: ResumeButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11657,7 +11657,7 @@ GameObject:
   - component: {fileID: 1146324717}
   - component: {fileID: 1146324716}
   m_Layer: 5
-  m_Name: PauseMenu
+  m_Name: PauseScreen
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17630,7 +17630,7 @@ GameObject:
   - component: {fileID: 1804431309}
   - component: {fileID: 1804431308}
   m_Layer: 5
-  m_Name: Menu
+  m_Name: MenuButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
