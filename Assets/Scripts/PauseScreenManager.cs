@@ -6,6 +6,8 @@ namespace Shcreepzy
 {
     public class PauseScreenManager : MonoBehaviour
     {
+        public static PauseScreenManager INSTANCE { get; private set; }
+
         [SerializeField] private GameObject pauseScreen;
         [SerializeField] private string menuScene;
 
@@ -29,12 +31,23 @@ namespace Shcreepzy
 
         private void Start()
         {
-            // Crossing the DontDestroyOnLoad border results in broken references
-            // TODO: find a better way to do this
-            pauseScreen = GameObject.Find("PauseScreen");
-            pauseButton = GameObject.Find("PauseButton").GetComponent<Button>();
-            resumeButton = GameObject.Find("ResumtButton").GetComponent<Button>();
-            menuButton = GameObject.Find("MenuButton").GetComponent<Button>();
+            if (INSTANCE != null)
+            {
+                Debug.LogError("Attempting to instantiate multiple copies of singleton PauseScreenManager, self-destructing");
+                Object.Destroy(this.gameObject);
+            }
+            else
+            {
+                INSTANCE = this;
+                DontDestroyOnLoad(this.gameObject);
+            }
+        }
+
+        // TODO: There's probably a better way than this
+        public void Die()
+        {
+            INSTANCE = null;
+            Object.Destroy(this.gameObject);
         }
 
         private void OnPauseButtonClicked()
@@ -53,6 +66,7 @@ namespace Shcreepzy
         {
             LevelObjectiveManager.INSTANCE.Die();
             PersistentCanvas.INSTANCE.Die();
+            Die();
             SceneManager.LoadScene(menuScene);
         }
     }

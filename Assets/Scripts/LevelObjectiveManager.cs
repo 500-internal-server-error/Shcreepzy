@@ -89,6 +89,7 @@ namespace Shcreepzy
                 if (currentObjectiveIndex >= levelObjectives.Count)
                 {
                     Debug.Log("no more objectives");
+                    PauseScreenManager.INSTANCE.Die();
                     PersistentCanvas.INSTANCE.Die();
                     Die();
                     // TODO: Find a better way to do this, this is jank af
